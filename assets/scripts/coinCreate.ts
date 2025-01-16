@@ -36,6 +36,7 @@ import { popcontrol } from './popcontrol';
 import { dcountChange } from './dcountChange';
 import { autoDropTs } from './autoDropTs';
 import { AudioMgr } from './AudioMgr';
+import {apiRequest} from './Api/apiRequest';
 @ccclass('coinCreate')
 export class coinCreate extends Component {
     @property(Prefab)
@@ -257,7 +258,32 @@ export class coinCreate extends Component {
                 this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
             }
             this.getVpinit()
-        } 
+        } else {
+            const body = {
+                mobile: '11011110022',
+                vericode: '123456',
+            }
+            if (this.Api == null) {
+                this.Api = new apiRequest()
+                this.Api.post('user/loginByVericodeForWeb', body,
+                    res => {
+                        this.userData = res.user;
+                        this.token = res.token;
+                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
+                        if(this.userData.vip > 0) {
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
+                        }
+                        this.Api.post('vp/init', { token: this.token, mode_id: '666277af914d731376793a6c' },
+                            resvp => {
+                                this.vpinitRes = resvp
+                                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
+                                this.getVpinit()
+                            }, resvp => { },
+                        );
+                    }, res => { },
+                );
+            }
+        }
     }
     // 获取上机信息
     getVpinit() {
