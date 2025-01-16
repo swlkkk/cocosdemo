@@ -1,0 +1,11 @@
+{
+  "name": "cocosPusher",
+  "uuid": "1381990a-3aaa-417d-938b-dbc69fdebcb8",
+  "creator": {
+    "version": "3.8.2",
+    "registry": {
+      "remote": {}
+    },
+    "dependencies": {}
+  }
+}

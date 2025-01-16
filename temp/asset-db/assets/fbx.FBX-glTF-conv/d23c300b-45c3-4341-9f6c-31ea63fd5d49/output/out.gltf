@@ -1,0 +1,135 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 40,
+      "max": [
+        0.23999999463558197,
+        0.0010000000474974513,
+        0.13000184297561646
+      ],
+      "min": [
+        -0.23999999463558197,
+        -0.0010000000474974513,
+        -0.13000184297561646
+      ],
+      "name": "ladder/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 40,
+      "name": "ladder/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 40,
+      "name": "ladder/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 60,
+      "name": "ladder/INDICES",
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1280,
+      "byteStride": 32,
+      "name": "ladder",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 120,
+      "byteOffset": 1280,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1400,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 24,
+          "hour": 9,
+          "millisecond": 0,
+          "minute": 49,
+          "month": 11,
+          "second": 4,
+          "year": 2023
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.5",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "Maxon Cinema 4D (RC) 21.207",
+            "applicationVendor": "",
+            "applicationVersion": "",
+            "fileName": ""
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "/Users/swl/Downloads/cocosPusher/assets/ladder.fbx"
+        }
+      }
+    }
+  },
+  "meshes": [
+    {
+      "name": "ladder",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "ladder",
+      "translation": [
+        0.3199999928474426,
+        0.3143807351589203,
+        0.42999815940856934
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

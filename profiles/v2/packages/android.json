@@ -1,0 +1,1170 @@
+{
+  "__version__": "1.0.1",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "android-001",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "android",
+      "name": "cocosPusher",
+      "scenes": [
+        {
+          "url": "db://assets/Scenes/scene.scene",
+          "uuid": "c4d960fb-096f-4e6c-a104-ceae0da8afa9"
+        }
+      ],
+      "startScene": "2f1ea52c-8867-4661-8434-03c9ab6a67bf",
+      "useSplashScreen": true
+    },
+    "options": {
+      "android": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "taskOptionsMap": {
+      "1704446183703": {
+        "packageName": "com.android.cocospusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": false,
+          "upsideDown": false,
+          "landscapeRight": true,
+          "landscapeLeft": true
+        },
+        "apiLevel": 28,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1704447310904": {
+        "packageName": "com.android.cocospusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 28,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1704447329948": {
+        "packageName": "com.android.cocospusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 28,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1704447370172": {
+        "packageName": "com.android.cocospusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 28,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1704685780736": {
+        "packageName": "com.android.cocospusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 28,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1704966971832": {
+        "packageName": "com.android.cocospusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 31,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705022229359": {
+        "packageName": "com.android.pusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 31,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705023042067": {
+        "packageName": "com.android.pusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 31,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705023228180": {
+        "packageName": "com.android.pusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 31,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705023833539": {
+        "packageName": "com.android.pusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 31,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705024156734": {
+        "packageName": "com.android.pusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 31,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705282122679": {
+        "packageName": "com.android.pusher",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 31,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "inputSDK": false,
+        "javaHome": "",
+        "javaPath": "",
+        "__version__": "1.0.1"
+      },
+      "1705288637530": {
+        "packageName": "com.android.pusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 34,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705368820892": {
+        "packageName": "com.android.pusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 34,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": false,
+          "gles3": true,
+          "gles2": true
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1705568184118": {
+        "packageName": "com.android.cocosPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 34,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1708417439072": {
+        "packageName": "com.android.cocosPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 34,
+        "appABIs": [
+          "arm64-v8a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "__version__": "1.0.1"
+      },
+      "1710747102892": {
+        "packageName": "com.android.cocosPusherNew",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 34,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "javaHome": "",
+        "javaPath": "",
+        "__version__": "1.0.1"
+      },
+      "1711337587467": {
+        "packageName": "com.android.cocosPusherNew",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 30,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "javaHome": "",
+        "javaPath": "",
+        "__version__": "1.0.1"
+      },
+      "1711338358654": {
+        "packageName": "com.android.cocosPusherNew",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 28,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "javaHome": "",
+        "javaPath": "",
+        "__version__": "1.0.1"
+      },
+      "1711345077476": {
+        "packageName": "com.android.cocosPusherNew",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 26,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "javaHome": "",
+        "javaPath": "",
+        "__version__": "1.0.1"
+      },
+      "1711520024018": {
+        "packageName": "com.android.cocosPusherNew",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 26,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "javaHome": "",
+        "javaPath": "",
+        "__version__": "1.0.1"
+      },
+      "1712456260710": {
+        "packageName": "com.android.cocosPusherNew",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "javaHome": "",
+        "javaPath": "",
+        "__version__": "1.0.1"
+      },
+      "1712457544814": {
+        "packageName": "com.android.cocosPusherNew",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": true,
+        "__version__": "1.0.1"
+      },
+      "1715762158976": {
+        "packageName": "com.android.ccsPusherNew",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": true,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1715842535834": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1715844736149": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1724051103153": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1724051434103": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1724051498598": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1724835529015": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      },
+      "1736408804959": {
+        "packageName": "com.android.ccsPusher",
+        "resizeableActivity": true,
+        "maxAspectRatio": "2.4",
+        "orientation": {
+          "portrait": true,
+          "upsideDown": false,
+          "landscapeRight": false,
+          "landscapeLeft": false
+        },
+        "apiLevel": 33,
+        "appABIs": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "useDebugKeystore": true,
+        "keystorePath": "",
+        "keystorePassword": "",
+        "keystoreAlias": "",
+        "keystoreAliasPassword": "",
+        "appBundle": false,
+        "androidInstant": false,
+        "inputSDK": false,
+        "remoteUrl": "",
+        "sdkPath": "",
+        "ndkPath": "",
+        "javaHome": "",
+        "javaPath": "",
+        "renderBackEnd": {
+          "vulkan": true,
+          "gles3": false,
+          "gles2": false
+        },
+        "swappy": false,
+        "__version__": "1.0.1"
+      }
+    },
+    "__version__": "1.3.7"
+  }
+}

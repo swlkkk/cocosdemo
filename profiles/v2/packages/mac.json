@@ -1,0 +1,48 @@
+{
+  "__version__": "1.0.0",
+  "builder": {
+    "common": {
+      "buildPath": "project://build",
+      "outputName": "mac",
+      "mainBundleCompressionType": "merge_dep",
+      "platform": "mac",
+      "scenes": [
+        {
+          "url": "db://assets/Scenes/scene-begin.scene",
+          "uuid": "2f1ea52c-8867-4661-8434-03c9ab6a67bf"
+        },
+        {
+          "url": "db://assets/Scenes/scene.scene",
+          "uuid": "c4d960fb-096f-4e6c-a104-ceae0da8afa9"
+        }
+      ]
+    },
+    "options": {
+      "mac": {
+        "executableName": "",
+        "packageName": "com.cocostest",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "targetVersion": "10.14",
+        "supportM1": false,
+        "skipUpdateXcodeProject": false,
+        "__version__": "1.0.0"
+      }
+    },
+    "taskOptionsMap": {
+      "1724034200623": {
+        "executableName": "",
+        "packageName": "com.cocostest",
+        "renderBackEnd": {
+          "metal": true
+        },
+        "targetVersion": "10.14",
+        "supportM1": false,
+        "skipUpdateXcodeProject": false,
+        "__version__": "1.0.0"
+      }
+    },
+    "__version__": "1.3.7"
+  }
+}

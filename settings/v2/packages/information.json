@@ -1,0 +1,41 @@
+{
+  "__version__": "1.0.1",
+  "information": {
+    "customSplash": {
+      "id": "customSplash",
+      "label": "customSplash",
+      "enable": true,
+      "customSplash": {
+        "complete": true,
+        "form": "https://creator-api.cocos.com/api/form/show?sid=7adb4ece289da55a2eb72488c49c551a"
+      }
+    },
+    "removeSplash": {
+      "id": "removeSplash",
+      "label": "removeSplash",
+      "enable": true,
+      "removeSplash": {
+        "complete": true,
+        "form": "https://creator-api.cocos.com/api/form/show?sid=7adb4ece289da55a2eb72488c49c551a"
+      }
+    },
+    "build-android": {
+      "id": "build-android",
+      "label": "build-android",
+      "enable": false,
+      "build-android": {
+        "complete": false,
+        "form": "https://creator-api.cocos.com/api/form/show?"
+      }
+    },
+    "build-ios": {
+      "id": "build-ios",
+      "label": "build-ios",
+      "enable": false,
+      "build-ios": {
+        "complete": false,
+        "form": "https://creator-api.cocos.com/api/form/show?"
+      }
+    }
+  }
+}

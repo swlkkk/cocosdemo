@@ -1,0 +1,932 @@
+2025-1-16 16:50:48-log: Cannot access game frame or container.
+2025-1-16 16:50:48-debug: asset-db:require-engine-code (563ms)
+2025-1-16 16:50:48-log: meshopt wasm decoder initialized
+2025-1-16 16:50:48-log: [box2d]:box2d wasm lib loaded.
+2025-1-16 16:50:48-log: [bullet]:bullet wasm lib loaded.
+2025-1-16 16:50:49-log: Cocos Creator v3.8.2
+2025-1-16 16:50:51-debug: [Assets Memory track]: asset-db-plugin-register: engine-extends start:108.12MB, end 237.57MB, increase: 129.45MB
+2025-1-16 16:50:51-debug: [Assets Memory track]: asset-db-plugin-enable: project start:108.24MB, end 237.58MB, increase: 129.33MB
+2025-1-16 16:50:49-debug: [Assets Memory track]: asset-db-plugin-register: programming start:106.65MB, end 108.08MB, increase: 1.42MB
+2025-1-16 16:50:49-debug: [Assets Memory track]: asset-db:worker-init: initEngine start:21.16MB, end 105.86MB, increase: 84.70MB
+2025-1-16 16:50:51-debug: [Assets Memory track]: asset-db:worker-init: initPlugin start:105.87MB, end 237.58MB, increase: 131.71MB
+2025-1-16 16:50:51-debug: [Assets Memory track]: asset-db-plugin-enable: builder start:108.58MB, end 234.77MB, increase: 126.19MB
+2025-1-16 16:50:51-debug: run package(light-probe) handler(enable) start
+2025-1-16 16:50:51-debug: run package(node-library) handler(enable) start
+2025-1-16 16:50:51-debug: run package(node-library) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(package-asset) handler(enable) start
+2025-1-16 16:50:51-debug: run package(package-asset) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(light-probe) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(process) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(reference-image) handler(enable) start
+2025-1-16 16:50:51-debug: run package(reference-image) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(reflection-probe) handler(enable) start
+2025-1-16 16:50:51-debug: run package(reflection-probe) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(engine-extends) handler(enable) start
+2025-1-16 16:50:51-debug: run package(engine-extends) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(adsense-h5g-plugin) handler(enable) start
+2025-1-16 16:50:51-debug: run package(adsense-h5g-plugin) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(alipay-mini-game) handler(enable) start
+2025-1-16 16:50:51-debug: run package(alipay-mini-game) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(android) handler(enable) start
+2025-1-16 16:50:51-debug: run package(android) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(bytedance-mini-game) handler(enable) start
+2025-1-16 16:50:51-debug: run package(bytedance-mini-game) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(certificate) handler(enable) start
+2025-1-16 16:50:51-debug: run package(certificate) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(channel-upload-tools) handler(enable) start
+2025-1-16 16:50:51-debug: run package(channel-upload-tools) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(fb-instant-games) handler(enable) start
+2025-1-16 16:50:51-debug: run package(fb-instant-games) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(huawei-agc) handler(enable) start
+2025-1-16 16:50:51-debug: run package(huawei-agc) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(huawei-quick-game) handler(enable) start
+2025-1-16 16:50:51-debug: run package(huawei-quick-game) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(ios) handler(enable) start
+2025-1-16 16:50:51-debug: run package(ios) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(linux) handler(enable) start
+2025-1-16 16:50:51-debug: run package(lightmap) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(mac) handler(enable) start
+2025-1-16 16:50:51-debug: run package(mac) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(process) handler(enable) start
+2025-1-16 16:50:51-debug: run package(linux) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(ohos) handler(enable) start
+2025-1-16 16:50:51-debug: run package(ohos) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(openharmony) handler(enable) start
+2025-1-16 16:50:51-debug: run package(openharmony) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(lightmap) handler(enable) start
+2025-1-16 16:50:51-debug: run package(oppo-mini-game) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(runtime-dev-tools) handler(enable) start
+2025-1-16 16:50:51-debug: run package(runtime-dev-tools) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(taobao-creative-app) handler(enable) start
+2025-1-16 16:50:51-debug: run package(taobao-creative-app) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(taobao-mini-game) handler(enable) start
+2025-1-16 16:50:51-debug: run package(taobao-mini-game) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(vivo-mini-game) handler(enable) start
+2025-1-16 16:50:51-debug: run package(vivo-mini-game) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(web-desktop) handler(enable) start
+2025-1-16 16:50:51-debug: run package(web-desktop) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(web-mobile) handler(enable) start
+2025-1-16 16:50:51-debug: run package(web-mobile) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(wechatgame) handler(enable) start
+2025-1-16 16:50:51-debug: run package(native) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(wechatprogram) handler(enable) start
+2025-1-16 16:50:51-debug: run package(wechatprogram) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(windows) handler(enable) start
+2025-1-16 16:50:51-debug: run package(windows) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(xiaomi-quick-game) handler(enable) start
+2025-1-16 16:50:51-debug: run package(xiaomi-quick-game) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(cocos-service) handler(enable) start
+2025-1-16 16:50:51-debug: run package(cocos-service) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(im-plugin) handler(enable) start
+2025-1-16 16:50:51-debug: run package(im-plugin) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(fix-device) handler(enable) start
+2025-1-16 16:50:51-debug: run package(fix-device) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(i18n) handler(enable) start
+2025-1-16 16:50:51-debug: run package(i18n) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(placeholder) handler(enable) start
+2025-1-16 16:50:51-debug: run package(placeholder) handler(enable) success!
+2025-1-16 16:50:51-debug: run package(native) handler(enable) start
+2025-1-16 16:50:51-debug: run package(oppo-mini-game) handler(enable) start
+2025-1-16 16:50:51-debug: run package(wechatgame) handler(enable) success!
+2025-1-16 16:50:51-debug: asset-db:worker-init: initPlugin (2375ms)
+2025-1-16 16:50:51-debug: [Assets Memory track]: asset-db:worker-init start:21.16MB, end 236.41MB, increase: 215.25MB
+2025-1-16 16:50:51-debug: Run asset db hook engine-extends:beforePreStart success!
+2025-1-16 16:50:51-debug: Run asset db hook programming:beforePreStart success!
+2025-1-16 16:50:51-debug: Run asset db hook engine-extends:beforePreStart ...
+2025-1-16 16:50:51-debug: Run asset db hook programming:beforePreStart ...
+2025-1-16 16:50:52-debug: asset-db:worker-init (3840ms)
+2025-1-16 16:50:52-debug: asset-db-hook-programming-beforePreStart (246ms)
+2025-1-16 16:50:52-debug: asset-db-hook-engine-extends-beforePreStart (247ms)
+2025-1-16 16:50:52-debug: Preimport db internal success
+2025-1-16 16:50:52-debug: Preimport db assets success
+2025-1-16 16:50:52-debug: Preimport db i18n success
+2025-1-16 16:50:52-debug: Run asset db hook programming:afterPreStart ...
+2025-1-16 16:50:52-debug: starting packer-driver...
+2025-1-16 16:50:52-debug: initialize scripting environment...
+2025-1-16 16:50:52-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-1-16 16:50:52-debug: [Assets Memory track]: asset-db:worker-init: preStart start:236.42MB, end 258.55MB, increase: 22.13MB
+2025-1-16 16:50:52-debug: Start up the 'internal' database...
+2025-1-16 16:50:52-debug: Run asset db hook engine-extends:afterPreStart success!
+2025-1-16 16:50:52-debug: Run asset db hook programming:afterPreStart success!
+2025-1-16 16:50:52-debug: Run asset db hook engine-extends:afterPreStart ...
+2025-1-16 16:50:52-debug: asset-db-hook-programming-afterPreStart (366ms)
+2025-1-16 16:50:52-debug: asset-db:worker-effect-data-processing (16ms)
+2025-1-16 16:50:52-debug: asset-db-hook-engine-extends-afterPreStart (16ms)
+2025-1-16 16:50:52-debug: [Assets Memory track]: asset-db:worker-startup-database[internal] start:253.63MB, end 257.82MB, increase: 4.19MB
+2025-1-16 16:50:52-debug: Start up the 'assets' database...
+2025-1-16 16:50:52-debug: asset-db:worker-startup-database[internal] (531ms)
+2025-1-16 16:50:52-debug: [Assets Memory track]: asset-db:worker-startup-database[assets] start:255.17MB, end 261.78MB, increase: 6.61MB
+2025-1-16 16:50:52-debug: Start up the 'i18n' database...
+2025-1-16 16:50:52-debug: asset-db:worker-startup-database[assets] (504ms)
+2025-1-16 16:50:52-debug: [Assets Memory track]: asset-db:worker-init: startup start:258.55MB, end 261.81MB, increase: 3.26MB
+2025-1-16 16:50:52-debug: asset-db:worker-startup-database[i18n] (485ms)
+2025-1-16 16:50:52-debug: asset-db:start-database (769ms)
+2025-1-16 16:50:52-debug: asset-db:ready (5883ms)
+2025-1-16 16:50:52-debug: init worker message success
+2025-1-16 16:50:52-debug: [Build Memory track]: builder:worker-init start:262.77MB, end 269.42MB, increase: 6.65MB
+2025-1-16 16:50:52-debug: programming:execute-script (3ms)
+2025-1-16 16:50:52-debug: builder:worker-init (279ms)
+2025-1-16 16:50:53-debug: programming:execute-script (12ms)
+2025-1-16 16:55:40-debug: refresh db internal success
+2025-1-16 16:55:40-debug: refresh db assets success
+2025-1-16 16:55:40-debug: refresh db i18n success
+2025-1-16 16:55:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 16:55:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 16:55:40-debug: asset-db:refresh-all-database (95ms)
+2025-1-16 16:55:40-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 16:55:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:07:50-debug: refresh db internal success
+2025-1-16 17:07:50-debug: refresh db assets success
+2025-1-16 17:07:50-debug: refresh db i18n success
+2025-1-16 17:07:50-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:07:50-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:07:50-debug: asset-db:refresh-all-database (84ms)
+2025-1-16 17:07:50-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:07:50-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:10:05-debug: refresh db internal success
+2025-1-16 17:10:05-debug: refresh db assets success
+2025-1-16 17:10:05-debug: refresh db i18n success
+2025-1-16 17:10:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:10:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:10:05-debug: asset-db:refresh-all-database (62ms)
+2025-1-16 17:10:05-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:10:05-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:10:26-debug: refresh db internal success
+2025-1-16 17:10:26-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:10:26-debug: refresh db assets success
+2025-1-16 17:10:26-debug: refresh db i18n success
+2025-1-16 17:10:26-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:10:26-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:10:26-debug: asset-db:refresh-all-database (55ms)
+2025-1-16 17:10:26-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:10:35-debug: refresh db internal success
+2025-1-16 17:10:35-debug: refresh db assets success
+2025-1-16 17:10:35-debug: refresh db i18n success
+2025-1-16 17:10:35-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:10:35-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:10:35-debug: asset-db:refresh-all-database (57ms)
+2025-1-16 17:10:37-debug: Query all assets info in project
+2025-1-16 17:10:37-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-1-16 17:10:37-debug:   Number of all scenes: 2
+2025-1-16 17:10:37-debug:   Number of all scripts: 60
+2025-1-16 17:10:37-debug:   Number of other assets: 909
+2025-1-16 17:10:37-debug: 查询 Asset Bundle start, progress: 0%
+2025-1-16 17:10:37-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:10:37-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+2025-1-16 17:10:37-debug: // ---- build task 查询 Asset Bundle ---- (11ms)
+2025-1-16 17:10:37-debug: 查询 Asset Bundle start, progress: 5%
+2025-1-16 17:10:37-debug: [Build Memory track]: 查询 Asset Bundle start:205.97MB, end 206.74MB, increase: 786.65KB
+2025-1-16 17:10:37-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:10:37-debug: run build task 查询 Asset Bundle success in 11 ms√, progress: 5%
+2025-1-16 17:10:37-debug: run build task 查询 Asset Bundle success in √, progress: 10%
+2025-1-16 17:10:37-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-1-16 17:10:37-debug: [Build Memory track]: 查询 Asset Bundle start:206.75MB, end 206.76MB, increase: 10.29KB
+2025-1-16 17:10:37-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:10:37-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-1-16 17:10:37-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:206.77MB, end 206.78MB, increase: 9.33KB
+2025-1-16 17:10:37-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-1-16 17:10:37-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-1-16 17:10:37-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-1-16 17:10:37-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-1-16 17:10:37-debug: [Build Memory track]: 填充脚本数据到 settings.json start:206.79MB, end 206.80MB, increase: 10.78KB
+2025-1-16 17:10:37-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:10:37-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2025-1-16 17:10:37-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2025-1-16 17:10:37-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:206.81MB, end 207.17MB, increase: 371.58KB
+2025-1-16 17:10:42-debug: refresh db internal success
+2025-1-16 17:10:42-debug: refresh db assets success
+2025-1-16 17:10:42-debug: refresh db i18n success
+2025-1-16 17:10:42-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:10:42-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:10:42-debug: asset-db:refresh-all-database (58ms)
+2025-1-16 17:10:42-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:10:42-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:11:19-debug: refresh db internal success
+2025-1-16 17:11:19-debug: refresh db assets success
+2025-1-16 17:11:19-debug: refresh db i18n success
+2025-1-16 17:11:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:11:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:11:19-debug: asset-db:refresh-all-database (56ms)
+2025-1-16 17:13:22-debug: refresh db internal success
+2025-1-16 17:13:23-debug: refresh db assets success
+2025-1-16 17:13:23-debug: refresh db i18n success
+2025-1-16 17:13:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:13:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:13:23-debug: asset-db:refresh-all-database (55ms)
+2025-1-16 17:13:23-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:13:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:14:03-debug: refresh db internal success
+2025-1-16 17:14:03-debug: refresh db assets success
+2025-1-16 17:14:03-debug: refresh db i18n success
+2025-1-16 17:14:03-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:14:03-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:14:03-debug: asset-db:refresh-all-database (43ms)
+2025-1-16 17:14:03-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:14:32-debug: refresh db internal success
+2025-1-16 17:14:32-debug: refresh db assets success
+2025-1-16 17:14:32-debug: refresh db i18n success
+2025-1-16 17:14:32-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:14:32-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:14:32-debug: asset-db:refresh-all-database (40ms)
+2025-1-16 17:14:41-debug: start refresh asset from /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes/scene.scene...
+2025-1-16 17:14:41-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes/scene.scenebackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:14:41-debug: refresh asset /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes success
+2025-1-16 17:15:06-debug: start refresh asset from /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes/scene.scene...
+2025-1-16 17:15:06-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes/scene.scenebackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:15:06-debug: refresh asset /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes success
+2025-1-16 17:19:19-debug: refresh db internal success
+2025-1-16 17:19:19-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:19:19-debug: refresh db assets success
+2025-1-16 17:19:19-debug: refresh db i18n success
+2025-1-16 17:19:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:19:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:19:19-debug: asset-db:refresh-all-database (58ms)
+2025-1-16 17:20:02-debug: refresh db internal success
+2025-1-16 17:20:02-debug: refresh db assets success
+2025-1-16 17:20:02-debug: refresh db i18n success
+2025-1-16 17:20:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:20:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:20:02-debug: asset-db:refresh-all-database (44ms)
+2025-1-16 17:20:02-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:20:02-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:20:15-debug: refresh db internal success
+2025-1-16 17:20:15-debug: refresh db assets success
+2025-1-16 17:20:15-debug: refresh db i18n success
+2025-1-16 17:20:15-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:20:15-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:20:15-debug: asset-db:refresh-all-database (40ms)
+2025-1-16 17:26:02-debug: refresh db internal success
+2025-1-16 17:26:02-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:26:02-debug: refresh db assets success
+2025-1-16 17:26:02-debug: refresh db i18n success
+2025-1-16 17:26:02-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:26:02-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:26:02-debug: asset-db:refresh-all-database (75ms)
+2025-1-16 17:26:04-debug: Query all assets info in project
+2025-1-16 17:26:04-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-1-16 17:26:04-debug:   Number of all scenes: 2
+2025-1-16 17:26:04-debug:   Number of all scripts: 60
+2025-1-16 17:26:04-debug:   Number of other assets: 909
+2025-1-16 17:26:04-debug: 查询 Asset Bundle start, progress: 0%
+2025-1-16 17:26:04-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:04-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+2025-1-16 17:26:04-debug: // ---- build task 查询 Asset Bundle ---- (13ms)
+2025-1-16 17:26:04-debug: 查询 Asset Bundle start, progress: 5%
+2025-1-16 17:26:04-debug: [Build Memory track]: 查询 Asset Bundle start:211.18MB, end 211.52MB, increase: 350.44KB
+2025-1-16 17:26:04-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:04-debug: run build task 查询 Asset Bundle success in 13 ms√, progress: 5%
+2025-1-16 17:26:04-debug: run build task 查询 Asset Bundle success in √, progress: 10%
+2025-1-16 17:26:04-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-1-16 17:26:04-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:04-debug: [Build Memory track]: 查询 Asset Bundle start:211.53MB, end 211.54MB, increase: 13.27KB
+2025-1-16 17:26:04-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-1-16 17:26:04-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-1-16 17:26:04-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-1-16 17:26:04-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:211.55MB, end 211.56MB, increase: 10.21KB
+2025-1-16 17:26:04-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-1-16 17:26:04-debug: [Build Memory track]: 填充脚本数据到 settings.json start:211.57MB, end 211.58MB, increase: 10.14KB
+2025-1-16 17:26:04-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:04-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-1-16 17:26:04-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2025-1-16 17:26:04-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2025-1-16 17:26:04-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:211.59MB, end 211.95MB, increase: 366.55KB
+2025-1-16 17:26:18-debug: refresh db internal success
+2025-1-16 17:26:18-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:26:18-debug: refresh db assets success
+2025-1-16 17:26:18-debug: refresh db i18n success
+2025-1-16 17:26:18-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:26:18-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:26:18-debug: asset-db:refresh-all-database (48ms)
+2025-1-16 17:26:18-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:26:18-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:26:19-debug: Query all assets info in project
+2025-1-16 17:26:19-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-1-16 17:26:19-debug:   Number of all scenes: 2
+2025-1-16 17:26:19-debug:   Number of all scripts: 60
+2025-1-16 17:26:19-debug:   Number of other assets: 909
+2025-1-16 17:26:19-debug: 查询 Asset Bundle start, progress: 0%
+2025-1-16 17:26:19-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:19-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+2025-1-16 17:26:19-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-1-16 17:26:19-debug: 查询 Asset Bundle start, progress: 5%
+2025-1-16 17:26:19-debug: [Build Memory track]: 查询 Asset Bundle start:197.88MB, end 198.35MB, increase: 481.72KB
+2025-1-16 17:26:19-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:19-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-1-16 17:26:19-debug: run build task 查询 Asset Bundle success in √, progress: 10%
+2025-1-16 17:26:19-debug: [Build Memory track]: 查询 Asset Bundle start:198.36MB, end 198.37MB, increase: 9.41KB
+2025-1-16 17:26:19-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-1-16 17:26:19-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:19-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-1-16 17:26:19-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-1-16 17:26:19-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:198.38MB, end 198.39MB, increase: 11.07KB
+2025-1-16 17:26:19-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-1-16 17:26:19-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-1-16 17:26:19-debug: [Build Memory track]: 填充脚本数据到 settings.json start:198.40MB, end 198.41MB, increase: 12.27KB
+2025-1-16 17:26:19-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:19-debug: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-1-16 17:26:19-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-1-16 17:26:19-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2025-1-16 17:26:19-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
+2025-1-16 17:26:19-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:198.42MB, end 198.78MB, increase: 373.02KB
+2025-1-16 17:26:22-debug: start refresh asset from /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes/scene.scene...
+2025-1-16 17:26:22-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes/scene.scenebackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:26:22-debug: refresh asset /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/Scenes success
+2025-1-16 17:26:23-debug: Query all assets info in project
+2025-1-16 17:26:23-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-1-16 17:26:23-debug:   Number of all scenes: 2
+2025-1-16 17:26:23-debug:   Number of other assets: 909
+2025-1-16 17:26:23-debug:   Number of all scripts: 60
+2025-1-16 17:26:23-debug: 查询 Asset Bundle start, progress: 0%
+2025-1-16 17:26:23-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:23-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+2025-1-16 17:26:23-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2025-1-16 17:26:23-debug: [Build Memory track]: 查询 Asset Bundle start:208.27MB, end 205.73MB, increase: -2600.68KB
+2025-1-16 17:26:23-debug: 查询 Asset Bundle start, progress: 5%
+2025-1-16 17:26:23-debug: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2025-1-16 17:26:23-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:23-debug: run build task 查询 Asset Bundle success in √, progress: 10%
+2025-1-16 17:26:23-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-1-16 17:26:23-debug: [Build Memory track]: 查询 Asset Bundle start:205.74MB, end 205.75MB, increase: 8.53KB
+2025-1-16 17:26:23-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:23-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-1-16 17:26:23-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:205.75MB, end 205.77MB, increase: 11.99KB
+2025-1-16 17:26:23-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-1-16 17:26:23-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-1-16 17:26:23-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-1-16 17:26:23-debug: [Build Memory track]: 填充脚本数据到 settings.json start:205.77MB, end 205.78MB, increase: 8.68KB
+2025-1-16 17:26:23-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-1-16 17:26:23-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:23-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (3ms)
+2025-1-16 17:26:23-debug: run build task 整理部分构建选项内数据到 settings.json success in 3 ms√, progress: 15%
+2025-1-16 17:26:23-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:205.79MB, end 206.15MB, increase: 364.81KB
+2025-1-16 17:26:40-debug: refresh db internal success
+2025-1-16 17:26:40-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:26:40-debug: refresh db assets success
+2025-1-16 17:26:40-debug: refresh db i18n success
+2025-1-16 17:26:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:26:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:26:40-debug: asset-db:refresh-all-database (69ms)
+2025-1-16 17:26:40-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:26:40-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:26:41-debug: Query all assets info in project
+2025-1-16 17:26:41-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-1-16 17:26:41-debug:   Number of all scenes: 2
+2025-1-16 17:26:41-debug:   Number of all scripts: 60
+2025-1-16 17:26:41-debug:   Number of other assets: 909
+2025-1-16 17:26:41-debug: 查询 Asset Bundle start, progress: 0%
+2025-1-16 17:26:41-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:41-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+2025-1-16 17:26:41-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-1-16 17:26:41-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:26:41-debug: [Build Memory track]: 查询 Asset Bundle start:208.89MB, end 209.10MB, increase: 216.14KB
+2025-1-16 17:26:41-debug: 查询 Asset Bundle start, progress: 5%
+2025-1-16 17:26:41-debug: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-1-16 17:26:41-debug: run build task 查询 Asset Bundle success in √, progress: 10%
+2025-1-16 17:26:41-debug: [Build Memory track]: 查询 Asset Bundle start:209.11MB, end 209.12MB, increase: 10.45KB
+2025-1-16 17:26:41-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-1-16 17:26:41-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:41-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-1-16 17:26:41-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:209.13MB, end 209.14MB, increase: 10.42KB
+2025-1-16 17:26:41-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-1-16 17:26:41-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-1-16 17:26:41-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-1-16 17:26:41-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-1-16 17:26:41-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:26:41-debug: [Build Memory track]: 填充脚本数据到 settings.json start:209.15MB, end 209.15MB, increase: 8.73KB
+2025-1-16 17:26:41-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2025-1-16 17:26:41-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:209.16MB, end 209.52MB, increase: 364.54KB
+2025-1-16 17:26:41-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
+2025-1-16 17:27:11-debug: refresh db internal success
+2025-1-16 17:27:11-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:27:11-debug: refresh db assets success
+2025-1-16 17:27:11-debug: refresh db i18n success
+2025-1-16 17:27:11-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:27:11-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:27:11-debug: asset-db:refresh-all-database (52ms)
+2025-1-16 17:27:11-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:27:11-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:27:12-debug: Query all assets info in project
+2025-1-16 17:27:12-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-1-16 17:27:12-debug:   Number of all scenes: 2
+2025-1-16 17:27:12-debug:   Number of all scripts: 60
+2025-1-16 17:27:12-debug:   Number of other assets: 909
+2025-1-16 17:27:12-debug: 查询 Asset Bundle start, progress: 0%
+2025-1-16 17:27:12-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:27:12-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+2025-1-16 17:27:12-debug: // ---- build task 查询 Asset Bundle ---- (8ms)
+2025-1-16 17:27:12-debug: run build task 查询 Asset Bundle success in 8 ms√, progress: 5%
+2025-1-16 17:27:12-debug: [Build Memory track]: 查询 Asset Bundle start:197.02MB, end 197.38MB, increase: 365.41KB
+2025-1-16 17:27:12-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:27:12-debug: 查询 Asset Bundle start, progress: 5%
+2025-1-16 17:27:12-debug: run build task 查询 Asset Bundle success in √, progress: 10%
+2025-1-16 17:27:12-debug: [Build Memory track]: 查询 Asset Bundle start:197.39MB, end 197.40MB, increase: 9.37KB
+2025-1-16 17:27:12-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-1-16 17:27:12-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:27:12-debug: run build task 整理部分构建选项内数据到 settings.json success in √, progress: 12%
+2025-1-16 17:27:12-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:197.41MB, end 197.42MB, increase: 11.03KB
+2025-1-16 17:27:12-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-1-16 17:27:12-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-1-16 17:27:12-debug: run build task 填充脚本数据到 settings.json success in √, progress: 13%
+2025-1-16 17:27:12-debug: [Build Memory track]: 填充脚本数据到 settings.json start:197.42MB, end 197.43MB, increase: 9.82KB
+2025-1-16 17:27:12-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-1-16 17:27:12-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:27:12-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (2ms)
+2025-1-16 17:27:12-debug: run build task 整理部分构建选项内数据到 settings.json success in 2 ms√, progress: 15%
+2025-1-16 17:27:12-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:197.44MB, end 197.81MB, increase: 380.47KB
+2025-1-16 17:27:23-debug: refresh db internal success
+2025-1-16 17:27:23-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:27:23-debug: refresh db assets success
+2025-1-16 17:27:23-debug: refresh db i18n success
+2025-1-16 17:27:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:27:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:27:23-debug: asset-db:refresh-all-database (56ms)
+2025-1-16 17:27:23-debug: asset-db:worker-effect-data-processing (1ms)
+2025-1-16 17:27:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-1-16 17:27:33-debug: Start record console... {file(/Users/swl/Desktop/cocos/cocos_tbjdwc/temp/builder/log/android1-9-2025 15-46.log)}
+2025-1-16 17:27:33-debug: =================================== build Task (android) Start ================================
+2025-1-16 17:27:33-debug: Start build task, options:{"name":"cocosPusher","server":"","platform":"android","buildPath":"project://build","debug":false,"md5Cache":false,"skipCompressTexture":false,"sourceMaps":false,"polyfills":{"asyncFunctions":false},"experimentalEraseModules":false,"startSceneAssetBundle":false,"bundleConfigs":[],"useBuiltinServer":false,"mainBundleIsRemote":false,"mainBundleCompressionType":"merge_dep","useSplashScreen":true,"bundleCommonChunk":false,"packAutoAtlas":true,"startScene":"2f1ea52c-8867-4661-8434-03c9ab6a67bf","outputName":"android","taskName":"android","scenes":[{"url":"db://assets/Scenes/scene-begin.scene","uuid":"2f1ea52c-8867-4661-8434-03c9ab6a67bf"},{"url":"db://assets/Scenes/scene.scene","uuid":"c4d960fb-096f-4e6c-a104-ceae0da8afa9"}],"packages":{"engine":{"cleanupImageCache":"inheritProjectSetting","__version__":"1.0.8"},"android":{"packageName":"com.android.ccsPusher","resizeableActivity":true,"maxAspectRatio":"2.4","orientation":{"portrait":true,"upsideDown":false,"landscapeRight":false,"landscapeLeft":false},"apiLevel":33,"appABIs":["arm64-v8a","armeabi-v7a"],"useDebugKeystore":true,"keystorePath":"","keystorePassword":"","keystoreAlias":"","keystoreAliasPassword":"","appBundle":false,"androidInstant":false,"inputSDK":false,"remoteUrl":"","sdkPath":"","ndkPath":"","javaHome":"","javaPath":"","renderBackEnd":{"vulkan":true,"gles3":false,"gles2":false},"swappy":false,"__version__":"1.0.1"},"native":{"encrypted":false,"xxteaKey":"10si580s9EAIET8/","compressZip":false,"JobSystem":"none","__version__":"1.0.2"},"cocos-service":{"configID":"49d8e8","services":[],"__version__":"3.0.7"}},"__version__":"1.3.7","buildMode":"normal","logDest":"project://temp/builder/log/android1-9-2025 15-46.log"}
+2025-1-16 17:27:33-debug: Build with Cocos Creator 3.8.2
+2025-1-16 17:27:33-debug: native:(onBeforeBuild) start..., progress: 0%
+2025-1-16 17:27:33-debug: // ---- build task native：onBeforeBuild ----
+2025-1-16 17:27:33-debug: // ---- build task native：onBeforeBuild ---- (7ms)
+2025-1-16 17:27:33-debug: cocos-service:(onBeforeBuild) start..., progress: 2%
+2025-1-16 17:27:33-debug: native:(onBeforeBuild) in 7 ms ✓, progress: 2%
+2025-1-16 17:27:33-debug: // ---- build task cocos-service：onBeforeBuild ----
+2025-1-16 17:27:33-debug: // ---- build task cocos-service：onBeforeBuild ---- (196ms)
+2025-1-16 17:27:33-debug: scene:(onBeforeBuild) start..., progress: 4%
+2025-1-16 17:27:33-debug: // ---- build task scene：onBeforeBuild ----
+2025-1-16 17:27:33-debug: cocos-service:(onBeforeBuild) in 196 ms ✓, progress: 4%
+2025-1-16 17:27:33-debug: // ---- build task scene：onBeforeBuild ---- (17ms)
+2025-1-16 17:27:33-debug: scene:(onBeforeBuild) in 17 ms ✓, progress: 7%
+2025-1-16 17:27:33-debug: Start lock asset db..., progress: 7%
+2025-1-16 17:27:33-log: Asset DB is paused with build!
+2025-1-16 17:27:33-debug: Query all assets info in project
+2025-1-16 17:27:33-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-1-16 17:27:33-debug:   Number of all scenes: 2
+2025-1-16 17:27:33-debug: // ---- build task native：onAfterInit ----
+2025-1-16 17:27:33-debug:   Number of other assets: 909
+2025-1-16 17:27:33-debug: native:(onAfterInit) start..., progress: 7%
+2025-1-16 17:27:33-debug:   Number of all scripts: 60
+2025-1-16 17:27:33-debug: Native engine root:/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native
+2025-1-16 17:27:33-debug: // ---- build task native：onAfterInit ---- (195ms)
+2025-1-16 17:27:33-debug: native:(onAfterInit) in 195 ms ✓, progress: 9%
+2025-1-16 17:27:33-debug: // ---- build task android：onAfterInit ----
+2025-1-16 17:27:33-debug: android:(onAfterInit) start..., progress: 9%
+2025-1-16 17:27:33-debug: // ---- build task android：onAfterInit ---- (13ms)
+2025-1-16 17:27:33-debug: android:(onAfterInit) in 13 ms ✓, progress: 11%
+2025-1-16 17:27:33-debug: cocos-service:(onAfterInit) start..., progress: 11%
+2025-1-16 17:27:33-debug: // ---- build task cocos-service：onAfterInit ----
+2025-1-16 17:27:33-debug: // ---- build task cocos-service：onAfterInit ---- (48ms)
+2025-1-16 17:27:33-debug: cocos-service:(onAfterInit) in 48 ms ✓, progress: 13%
+2025-1-16 17:27:33-debug: // ---- build task engine：onAfterInit ----
+2025-1-16 17:27:33-debug: engine:(onAfterInit) start..., progress: 13%
+2025-1-16 17:27:33-debug: // ---- build task engine：onAfterInit ---- (10ms)
+2025-1-16 17:27:33-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ----
+2025-1-16 17:27:33-debug: adsense-h5g-plugin:(onBeforeBundleInit) start..., progress: 16%
+2025-1-16 17:27:33-debug: [adsense-h5g-plugin] remove script success
+2025-1-16 17:27:33-debug: engine:(onAfterInit) in 10 ms ✓, progress: 16%
+2025-1-16 17:27:33-debug: // ---- build task adsense-h5g-plugin：onBeforeBundleInit ---- (10ms)
+2025-1-16 17:27:33-debug: adsense-h5g-plugin:(onBeforeBundleInit) in 10 ms ✓, progress: 16%
+2025-1-16 17:27:33-debug: Init all bundles start..., progress: 16%
+2025-1-16 17:27:33-debug: Num of bundles: 3..., progress: 16%
+2025-1-16 17:27:33-debug: reload all scripts.
+2025-1-16 17:27:33-debug: Set detail map pack:///resolution-detail-map.json: {}
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/base" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl2" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-empty" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/3d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/animation" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/skeletal-animation" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/2d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/sorting" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/ui" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/particle-2d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-framework" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-box2d-wasm" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/intersection-2d" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/primitive" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/profiler" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/geometry-renderer" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/audio" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/video" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/xr" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/gfx-webgl" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/webview" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tween" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/tiled-map" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/spine" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/dragon-bones" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/terrain" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/physics-2d-framework" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/light-probe" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "cce:/internal/x/cc-fu/custom-pipeline" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js" loaded.
+2025-1-16 17:27:33-debug: Invalidating 'pack:///chunks/93/93ba276ea7b26ffcdc433fab14afc1ed6f05647b.js'
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register DebugViewRuntimeControl
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/47/47a1530b86f8dba752d13f037cd555503db82c41.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/28/28014d90ceff4b801b9ffe8c77f3cf87aec449f8.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/28/28014d90ceff4b801b9ffe8c77f3cf87aec449f8.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/28/28014d90ceff4b801b9ffe8c77f3cf87aec449f8.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/d9/d94d5d3f0e677c0d869cb2c0f1e9ff1ee095de44.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/d9/d94d5d3f0e677c0d869cb2c0f1e9ff1ee095de44.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/d9/d94d5d3f0e677c0d869cb2c0f1e9ff1ee095de44.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/2e/2ed28ed94995c25509ed4448172fa11dd1af68f9.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/2e/2ed28ed94995c25509ed4448172fa11dd1af68f9.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register AllAnimate
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/2e/2ed28ed94995c25509ed4448172fa11dd1af68f9.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/8f/8fd5e07d61aae2efd4d2865abf7df23260e18a24.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/8f/8fd5e07d61aae2efd4d2865abf7df23260e18a24.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/8f/8fd5e07d61aae2efd4d2865abf7df23260e18a24.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register MD5
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/f9/f9c90e958c2f7add9591d4264655043e4542d647.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/f9/f9c90e958c2f7add9591d4264655043e4542d647.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register encrypt
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/f9/f9c90e958c2f7add9591d4264655043e4542d647.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/18/186bd1bf9a7bb1e99e523c1252a69c5c52996504.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/18/186bd1bf9a7bb1e99e523c1252a69c5c52996504.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/6a/6a5019a719a9014c047e67aa1cf34453ab8392ce.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/18/186bd1bf9a7bb1e99e523c1252a69c5c52996504.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register sign
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/57/57ccf9cc0b7bc51e30794c58cbb8a18cd11f1f23.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/57/57ccf9cc0b7bc51e30794c58cbb8a18cd11f1f23.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/57/57ccf9cc0b7bc51e30794c58cbb8a18cd11f1f23.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/74/742c2181f0456d6ebe66120c9e0760e90756a708.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/74/742c2181f0456d6ebe66120c9e0760e90756a708.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register socketApi
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/74/742c2181f0456d6ebe66120c9e0760e90756a708.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/00/0080552b7accd5bca47d821f2d09c77f0d712cfa.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/00/0080552b7accd5bca47d821f2d09c77f0d712cfa.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register socketFun
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/00/0080552b7accd5bca47d821f2d09c77f0d712cfa.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/e9/e97c6f7674019067f0ceb700b4ea1717b341d31c.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/e9/e97c6f7674019067f0ceb700b4ea1717b341d31c.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/7d/7dd3c1dcd2250821f741995e56260fb42e717a85.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/7d/7dd3c1dcd2250821f741995e56260fb42e717a85.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/b1/b1ded8fd8651ddee7343e502efa81309c22b5b59.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/b1/b1ded8fd8651ddee7343e502efa81309c22b5b59.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/16/1627c1f8c4cd07b2d492a0b7f5ce02cd224275b6.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/16/1627c1f8c4cd07b2d492a0b7f5ce02cd224275b6.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/88/8855a1eb6d1116b5f3d1a5ddd3380df821b0452a.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/88/8855a1eb6d1116b5f3d1a5ddd3380df821b0452a.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/60/60cec12cd107a4c3e204dabef979992125eca9d8.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/60/60cec12cd107a4c3e204dabef979992125eca9d8.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/a1/a13346c846a944c6761b22fe77f91a6f647c85a2.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/a1/a13346c846a944c6761b22fe77f91a6f647c85a2.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/b1/b126abdcca88d257c3e4560c3c3305f8fc0ea371.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/b1/b126abdcca88d257c3e4560c3c3305f8fc0ea371.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ae/ae26f6cc0de73a3a790bc818f128381f2edd21f0.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ae/ae26f6cc0de73a3a790bc818f128381f2edd21f0.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/da/da3f9493b34bce435cd61bf3953425b046d07e01.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/da/da3f9493b34bce435cd61bf3953425b046d07e01.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/4b/4b5c79c4f853290e2e8771158eb49dc90a523856.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/4b/4b5c79c4f853290e2e8771158eb49dc90a523856.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/cc/cc683782aa6ce5cdf84de0452f749a09c4dc9acb.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/cc/cc683782aa6ce5cdf84de0452f749a09c4dc9acb.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/46/46b5fe2669bab6475dd07f90711290e5583d18db.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/46/46b5fe2669bab6475dd07f90711290e5583d18db.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/93/93d015b1c9e7ce4ea3d77585f8e2980715c849bd.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/93/93d015b1c9e7ce4ea3d77585f8e2980715c849bd.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/d2/d27520c90b44e596d0356a7eeadd85da67343ce3.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/d2/d27520c90b44e596d0356a7eeadd85da67343ce3.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ab/abf18c968c512ef5f9c9930053eb0e0297621ec3.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ab/abf18c968c512ef5f9c9930053eb0e0297621ec3.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/eb/ebfc274c81ef02028e54b8eecd9af33716c5be48.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/eb/ebfc274c81ef02028e54b8eecd9af33716c5be48.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/5d/5d20ee861afc3f33cea3a96801fb6406c85b23d1.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/5d/5d20ee861afc3f33cea3a96801fb6406c85b23d1.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/65/657cae1eb1383a021a76ca782bd6c918f9481045.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/65/657cae1eb1383a021a76ca782bd6c918f9481045.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/0e/0e3b85b69e4453b87262703152e86345f6c81cd4.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/0e/0e3b85b69e4453b87262703152e86345f6c81cd4.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/40/404af466ac5f41fa17a759eef68fdbeca08674cf.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/40/404af466ac5f41fa17a759eef68fdbeca08674cf.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ca/ca1cf1342bdf16209eccb8f4e9630371912f08f3.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ca/ca1cf1342bdf16209eccb8f4e9630371912f08f3.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/78/7869b53b4cb602961f52c0bd290a65d181595312.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/78/7869b53b4cb602961f52c0bd290a65d181595312.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/8e/8e1f4293e097d9277c75024e637317ac1f438a81.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/8e/8e1f4293e097d9277c75024e637317ac1f438a81.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/53/539c2bff62f73d11632b2157ad1ec361b2ae514a.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/53/539c2bff62f73d11632b2157ad1ec361b2ae514a.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/36/36805355044bd89fae64125b5bee3870ad63d171.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/36/36805355044bd89fae64125b5bee3870ad63d171.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/89/891006c4db4aad7f4cae8a5a41c7e8200757bd34.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/89/891006c4db4aad7f4cae8a5a41c7e8200757bd34.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ee/eec9937aaac8ca84f746b69c3c3bbd6eaccf85eb.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ee/eec9937aaac8ca84f746b69c3c3bbd6eaccf85eb.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/43/43239aa22654d0becbb4c1fd058efa9100866801.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/43/43239aa22654d0becbb4c1fd058efa9100866801.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/4e/4ecdb1ab84652a9d198e64f69ed1ecd24737133c.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/4e/4ecdb1ab84652a9d198e64f69ed1ecd24737133c.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/36/36886a92f7489b971890e4c2abf044b0c81aa53a.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/36/36886a92f7489b971890e4c2abf044b0c81aa53a.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/49/49303a644815acf24ecfed64731afe1c9f7594b5.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/49/49303a644815acf24ecfed64731afe1c9f7594b5.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/09/09edc836123f45e75e3f23705ccbd8b338387b90.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/09/09edc836123f45e75e3f23705ccbd8b338387b90.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/a7/a79f53b701c299fe141c270d2ff5df7a0129c3e0.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/a7/a79f53b701c299fe141c270d2ff5df7a0129c3e0.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/a5/a54e86fc0f9418c81234bd55e60027caf16ed64c.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/a5/a54e86fc0f9418c81234bd55e60027caf16ed64c.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/03/034e279e291a36c76fc660c31468da68ada271d7.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/03/034e279e291a36c76fc660c31468da68ada271d7.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register poolManager
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/88/8855a1eb6d1116b5f3d1a5ddd3380df821b0452a.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/ab/abf18c968c512ef5f9c9930053eb0e0297621ec3.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/78/7869b53b4cb602961f52c0bd290a65d181595312.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/09/09edc836123f45e75e3f23705ccbd8b338387b90.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/ee/eec9937aaac8ca84f746b69c3c3bbd6eaccf85eb.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/a7/a79f53b701c299fe141c270d2ff5df7a0129c3e0.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/03/034e279e291a36c76fc660c31468da68ada271d7.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/36/36886a92f7489b971890e4c2abf044b0c81aa53a.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/a5/a54e86fc0f9418c81234bd55e60027caf16ed64c.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/4e/4ecdb1ab84652a9d198e64f69ed1ecd24737133c.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/43/43239aa22654d0becbb4c1fd058efa9100866801.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/53/539c2bff62f73d11632b2157ad1ec361b2ae514a.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register spin
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/eb/ebfc274c81ef02028e54b8eecd9af33716c5be48.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register jpScorets
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/4b/4b5c79c4f853290e2e8771158eb49dc90a523856.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register flashPicts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/8e/8e1f4293e097d9277c75024e637317ac1f438a81.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register labelts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/89/891006c4db4aad7f4cae8a5a41c7e8200757bd34.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register ddlts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/b1/b126abdcca88d257c3e4560c3c3305f8fc0ea371.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/5d/5d20ee861afc3f33cea3a96801fb6406c85b23d1.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register xmlAnim
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/cc/cc683782aa6ce5cdf84de0452f749a09c4dc9acb.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register lxts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/d2/d27520c90b44e596d0356a7eeadd85da67343ce3.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register xmlts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/ae/ae26f6cc0de73a3a790bc818f128381f2edd21f0.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/49/49303a644815acf24ecfed64731afe1c9f7594b5.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/0e/0e3b85b69e4453b87262703152e86345f6c81cd4.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register jpts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/93/93d015b1c9e7ce4ea3d77585f8e2980715c849bd.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register hyts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/40/404af466ac5f41fa17a759eef68fdbeca08674cf.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register ddlhyts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/ca/ca1cf1342bdf16209eccb8f4e9630371912f08f3.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register machine
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/a1/a13346c846a944c6761b22fe77f91a6f647c85a2.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register maints
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/46/46b5fe2669bab6475dd07f90711290e5583d18db.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register settleTs
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/16/1627c1f8c4cd07b2d492a0b7f5ce02cd224275b6.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register itemTemplate
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/36/36805355044bd89fae64125b5bee3870ad63d171.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register chargList
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/da/da3f9493b34bce435cd61bf3953425b046d07e01.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register popcontrol
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/7d/7dd3c1dcd2250821f741995e56260fb42e717a85.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register awardCl
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/60/60cec12cd107a4c3e204dabef979992125eca9d8.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register gameCore
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/65/657cae1eb1383a021a76ca782bd6c918f9481045.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register coinCreate
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/b1/b1ded8fd8651ddee7343e502efa81309c22b5b59.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register autoDropTs
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/e9/e97c6f7674019067f0ceb700b4ea1717b341d31c.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register dcountChange
+2025-1-16 17:27:33-debug: [[Executor]] Register lineAnimate
+2025-1-16 17:27:33-debug: [[Executor]] Register lightNode
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/23/232eebe0b56bc0a9f091f91b031606e7038399c7.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/23/232eebe0b56bc0a9f091f91b031606e7038399c7.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register awardSensing
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/23/232eebe0b56bc0a9f091f91b031606e7038399c7.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/24/24a751d05657e9b3204459626eae2a21e2d3c13a.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/24/24a751d05657e9b3204459626eae2a21e2d3c13a.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register beginVs
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/24/24a751d05657e9b3204459626eae2a21e2d3c13a.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/07/0752173384999f3c7ba245ca18becaa741ef43e8.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/07/0752173384999f3c7ba245ca18becaa741ef43e8.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register bgchange
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/07/0752173384999f3c7ba245ca18becaa741ef43e8.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/79/792daf199452d940e3503f40d43843a7364a83f4.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/79/792daf199452d940e3503f40d43843a7364a83f4.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register btPallets
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/79/792daf199452d940e3503f40d43843a7364a83f4.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/f4/f43185838642fbdffdac7f1deadfbe8b0dd443a2.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/f4/f43185838642fbdffdac7f1deadfbe8b0dd443a2.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register dbTs
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/f4/f43185838642fbdffdac7f1deadfbe8b0dd443a2.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/72/72e930c91ee522344378938ac946f84fc23726e2.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/72/72e930c91ee522344378938ac946f84fc23726e2.js is not in module cache!
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/70/70381bd832d850dd4a5385838014c4f6ea30ec37.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/70/70381bd832d850dd4a5385838014c4f6ea30ec37.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/70/70381bd832d850dd4a5385838014c4f6ea30ec37.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register scoreAn
+2025-1-16 17:27:33-debug: [[Executor]] Register getScore
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/72/72e930c91ee522344378938ac946f84fc23726e2.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/4e/4ea58b38a46d88dfceb1688cb8516c708da9b907.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/4e/4ea58b38a46d88dfceb1688cb8516c708da9b907.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register menu
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/4e/4ea58b38a46d88dfceb1688cb8516c708da9b907.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/aa/aa6b91253455029baaf0ce6e54ab2ba4e6c68c04.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/aa/aa6b91253455029baaf0ce6e54ab2ba4e6c68c04.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/aa/aa6b91253455029baaf0ce6e54ab2ba4e6c68c04.js" loaded.
+2025-1-16 17:27:33-debug: [[Executor]] Register pushplate
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/42/42465b03592e0a128ee2bf47aab67da041e1e96d.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/42/42465b03592e0a128ee2bf47aab67da041e1e96d.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register wiperLeft
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/42/42465b03592e0a128ee2bf47aab67da041e1e96d.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/6b/6bc6365e13250549e092d216597a567cc3b6dedc.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/6b/6bc6365e13250549e092d216597a567cc3b6dedc.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register wiperRight
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/6b/6bc6365e13250549e092d216597a567cc3b6dedc.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/1b/1bcff3b60a88ae9a28a36d86569b84bb5cbf99f4.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/1b/1bcff3b60a88ae9a28a36d86569b84bb5cbf99f4.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register ysts
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/1b/1bcff3b60a88ae9a28a36d86569b84bb5cbf99f4.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ac/ac1e85cc757cfacb8d2688614a22e0a53637879a.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/ac/ac1e85cc757cfacb8d2688614a22e0a53637879a.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register LocalizedLabel
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/ac/ac1e85cc757cfacb8d2688614a22e0a53637879a.js" loaded.
+2025-1-16 17:27:33-debug: /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/0e/0e036af2b060d00fb53494723ac8d00eda108aeb.js resolved to /Users/swl/Desktop/cocos/cocos_tbjdwc/temp/programming/packer-driver/targets/editor/chunks/0e/0e036af2b060d00fb53494723ac8d00eda108aeb.js is not in module cache!
+2025-1-16 17:27:33-debug: [[Executor]] Register LocalizedSpriteItem
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/0e/0e036af2b060d00fb53494723ac8d00eda108aeb.js" loaded.
+2025-1-16 17:27:33-debug: native:(onAfterBundleInit) start..., progress: 16%
+2025-1-16 17:27:33-debug: // ---- build task native：onAfterBundleInit ----
+2025-1-16 17:27:33-debug: Incremental keys: languages,_languageData
+2025-1-16 17:27:33-debug: [[Executor]] Register LocalizedSprite
+2025-1-16 17:27:33-debug: [[Executor]] Module "pack:///chunks/6d/6d8fd2b0177941b032ddc0733af48a561fb60657.js" loaded.
+2025-1-16 17:27:33-debug: // ---- build task native：onAfterBundleInit ---- (6ms)
+2025-1-16 17:27:33-debug: android:(onAfterBundleInit) start..., progress: 16%
+2025-1-16 17:27:33-debug: // ---- build task android：onAfterBundleInit ----
+2025-1-16 17:27:33-debug: native:(onAfterBundleInit) in 6 ms ✓, progress: 16%
+2025-1-16 17:27:33-debug: // ---- build task android：onAfterBundleInit ---- (10ms)
+2025-1-16 17:27:33-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:27:33-debug: 查询 Asset Bundle start, progress: 16%
+2025-1-16 17:27:33-debug: Init bundle root assets start..., progress: 16%
+2025-1-16 17:27:33-debug: android:(onAfterBundleInit) in 10 ms ✓, progress: 16%
+2025-1-16 17:27:33-debug: Query preload assets from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,511d2633-09a7-4bdd-ac42-f778032124b3,5d45aa00-e064-4938-b314-4265f0c2258c,9361fd90-ba52-4f84-aa93-6e878fd576ca,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,ba21476f-2866-4f81-9c4d-6e359316e448,871c3b6c-7379-419d-bda3-794b239ab90d,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98
+2025-1-16 17:27:33-debug: Init bundle root assets success..., progress: 16%
+2025-1-16 17:27:33-debug: Init bundle share assets start..., progress: 16%
+2025-1-16 17:27:33-debug: Init bundle share assets success..., progress: 16%
+2025-1-16 17:27:33-debug: handle json group in bundle internal
+2025-1-16 17:27:33-debug: init image compress task 0 in bundle internal
+2025-1-16 17:27:33-debug: handle json group in bundle resources success
+2025-1-16 17:27:33-debug: init image compress task 0 in bundle resources
+2025-1-16 17:27:33-debug: handle json group in bundle main
+2025-1-16 17:27:33-debug: init image compress task 0 in bundle main
+2025-1-16 17:27:33-debug: handle json group in bundle main success
+2025-1-16 17:27:33-debug: handle json group in bundle internal success
+2025-1-16 17:27:33-debug: handle json group in bundle resources
+2025-1-16 17:27:33-debug: // ---- build task 查询 Asset Bundle ---- (95ms)
+2025-1-16 17:27:33-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:27:33-debug: [Build Memory track]: 查询 Asset Bundle start:209.78MB, end 201.22MB, increase: -8766.61KB
+2025-1-16 17:27:33-debug: 查询 Asset Bundle start, progress: 21%
+2025-1-16 17:27:33-debug: run build task 查询 Asset Bundle success in 95 ms√, progress: 21%
+2025-1-16 17:27:33-debug: // ---- build task 查询 Asset Bundle ---- (12ms)
+2025-1-16 17:27:33-debug: [Build Memory track]: 查询 Asset Bundle start:201.23MB, end 201.29MB, increase: 64.09KB
+2025-1-16 17:27:33-debug: // ---- build task native：onAfterBundleDataTask ----
+2025-1-16 17:27:33-debug: native:(onAfterBundleDataTask) start..., progress: 26%
+2025-1-16 17:27:33-debug: run build task 查询 Asset Bundle success in 12 ms√, progress: 26%
+2025-1-16 17:27:33-debug: // ---- build task native：onAfterBundleDataTask ---- (10ms)
+2025-1-16 17:27:33-debug: // ---- build task 打包脚本 ----
+2025-1-16 17:27:33-debug: 打包脚本 start, progress: 26%
+2025-1-16 17:27:33-debug: native:(onAfterBundleDataTask) in 10 ms ✓, progress: 26%
+2025-1-16 17:27:33-debug: Caught exception during build core-js: WebpackOptionsValidationError: Invalid configuration object. Webpack has been initialised using a configuration object that does not match the API schema. - configuration.entry should be an non-empty array.   -> A non-empty array of non-empty stringsThis may indicates the core-js polyfill is not necessary. See https://github.com/zloirock/core-js/issues/822
+2025-1-16 17:27:33-debug: Generate systemJs..., progress: 26%
+2025-1-16 17:27:36-debug: 构建项目脚本 start..., progress: 26%
+2025-1-16 17:27:36-debug: Build script in bundle start, progress: 26%
+2025-1-16 17:27:36-log: Run build task(build-script) in child, see: chrome://inspect/#devices
+2025-1-16 17:27:36-log: [build-script]enter sub process 61577, /Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Frameworks/CocosCreator Helper (Renderer).app/Contents/MacOS/CocosCreator Helper (Renderer),/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/app.asar/builtin/builder/static/sub-process-index
+2025-1-16 17:27:38-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/machine.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/spin.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/machine.ts
+2025-1-16 17:27:38-warn: [build-script][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/machine.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/spin.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/machine.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/machine.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/xmlts.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/machine.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/machine.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/jpts.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/awardCl.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/settleTs.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/awardCl.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/settleTs.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/awardCl.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/settleTs.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/awardCl.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/awardCl.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/awardCl.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/dcountChange.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts[warning][[Build.Script.Rollup]] Circular dependency: file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/autoDropTs.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/coinCreate.ts -> file:///Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/autoDropTs.ts
+2025-1-16 17:27:39-debug: excute-script over with build-script 3397ms
+2025-1-16 17:27:39-debug: Copy externalScripts success!
+2025-1-16 17:27:39-debug: Build script in bundle success, progress: 26%
+2025-1-16 17:27:39-debug: 构建项目脚本 in (3631 ms) √, progress: 26%
+2025-1-16 17:27:39-debug: 构建引擎脚本 start..., progress: 26%
+2025-1-16 17:27:39-debug: Use cache engine: {link(/var/folders/9l/mw1mjjd52bxdff8bzxqq01_c0000gp/T/CocosCreator/3.8.2/builder/engine/bd1ddd67807d09bcc683a4371ce0fa53)}
+2025-1-16 17:27:39-debug: {"debug":false,"sourceMaps":false,"includeModules":["2d","3d","animation","audio","base","light-probe","marionette","physics-physx","primitive","profiler","skeletal-animation","spine","tween","ui","video","websocket","webview"],"engineVersion":"3.8.2","md5Map":[],"engineName":"src/cocos-js","platform":"ANDROID","useCache":true,"isNative":true,"output":"/Users/swl/Desktop/cocos/cocos_tbjdwc/build/android/data/src/cocos-js","targets":"chrome 80","flags":{"DEBUG":false,"CULL_MESHOPT":false},"entry":"/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine"}
+2025-1-16 17:27:39-debug: 构建引擎脚本 in (34 ms) √, progress: 26%
+2025-1-16 17:27:39-debug: Generate import-map..., progress: 26%
+2025-1-16 17:27:39-debug: Copy plugin script ..., progress: 26%
+2025-1-16 17:27:39-debug: // ---- build task 打包脚本 ---- (6037ms)
+2025-1-16 17:27:39-debug: // ---- build task Build Assets ----
+2025-1-16 17:27:39-debug: Build bundles..., progress: 31%
+2025-1-16 17:27:39-debug: Pack Images start, progress: 31%
+2025-1-16 17:27:39-debug: run build task 打包脚本 success in 6 s√, progress: 31%
+2025-1-16 17:27:39-debug: [Build Memory track]: 打包脚本 start:201.51MB, end 257.30MB, increase: 55.79MB
+2025-1-16 17:27:39-debug: Build Assets start, progress: 31%
+2025-1-16 17:27:40-debug: builder:pack-auto-atlas-image (20ms)
+2025-1-16 17:27:40-debug: sort compress task {}
+2025-1-16 17:27:40-debug: Num of all image compress task 0, really: 0, configTasks: 0
+2025-1-16 17:27:40-debug: No image need to compress
+2025-1-16 17:27:40-debug: Compress image success..., progress: 31%
+2025-1-16 17:27:40-debug: Ouput asset in bundles start, progress: 31%
+2025-1-16 17:27:40-debug: Handle all json groups in bundle internal
+2025-1-16 17:27:40-debug: handle json group
+2025-1-16 17:27:40-debug: Handle all json groups in bundle resources
+2025-1-16 17:27:40-debug: Pack Images success, progress: 31%
+2025-1-16 17:27:40-debug: Compress image start..., progress: 31%
+2025-1-16 17:27:40-debug: handle json group
+2025-1-16 17:27:40-debug: Handle all json groups in bundle main
+2025-1-16 17:27:40-debug: handle json group
+2025-1-16 17:27:40-debug: Json group(03c0c5fd0) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0e3414751) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(05232b230) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0490e1979) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0cd58402f) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(07e35cb94) compile success，json number: 6
+2025-1-16 17:27:40-debug: handle single json
+2025-1-16 17:27:40-debug: Json group(07f1f52a6) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0fe539d2d) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0f278afd1) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(08525bca4) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(024f0c86e) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(01cea9ab5) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0b48be32e) compile success，json number: 6
+2025-1-16 17:27:40-debug: handle single json
+2025-1-16 17:27:40-debug: Json group(02a556ba9) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(08414f882) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0f9511b85) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(033fb9518) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(0fea9d43e) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(038441d34) compile success，json number: 6
+2025-1-16 17:27:40-debug: Json group(09e4ffbb7) compile success，json number: 6
+2025-1-16 17:27:40-debug: handle single json
+2025-1-16 17:27:40-debug: Output asset in bundles success, progress: 31%
+2025-1-16 17:27:40-debug: // ---- build task Build Assets ---- (530ms)
+2025-1-16 17:27:40-debug: run build task Build Assets success in 530 ms√, progress: 36%
+2025-1-16 17:27:40-debug: [Build Memory track]: Build Assets start:257.31MB, end 287.02MB, increase: 29.71MB
+2025-1-16 17:27:40-debug: 给所有的资源加上 MD5 后缀 start, progress: 36%
+2025-1-16 17:27:40-debug: // ---- build task 给所有的资源加上 MD5 后缀 ----
+2025-1-16 17:27:40-debug: // ---- build task 给所有的资源加上 MD5 后缀 ---- (10ms)
+2025-1-16 17:27:40-debug: run build task 给所有的资源加上 MD5 后缀 success in 10 ms√, progress: 41%
+2025-1-16 17:27:40-debug: // ---- build task 查询 Asset Bundle ----
+2025-1-16 17:27:40-debug: 查询 Asset Bundle start, progress: 41%
+2025-1-16 17:27:40-debug: [Build Memory track]: 给所有的资源加上 MD5 后缀 start:287.11MB, end 287.17MB, increase: 59.01KB
+2025-1-16 17:27:40-debug: compress config of bundle resources...
+2025-1-16 17:27:40-debug: compress config of bundle internal...
+2025-1-16 17:27:40-debug: compress config of bundle main...
+2025-1-16 17:27:40-debug: compress config of bundle internal success
+2025-1-16 17:27:40-debug: ouput config of bundle internal
+2025-1-16 17:27:40-debug: output config of bundle internal success
+2025-1-16 17:27:40-debug: ouput config of bundle resources
+2025-1-16 17:27:40-debug: output config of bundle resources success
+2025-1-16 17:27:40-debug: ouput config of bundle main
+2025-1-16 17:27:40-debug: output config of bundle main success
+2025-1-16 17:27:40-debug: Output asset in bundles success, progress: 41%
+2025-1-16 17:27:40-debug: compress config of bundle resources success
+2025-1-16 17:27:40-debug: compress config of bundle main success
+2025-1-16 17:27:40-debug: Output asset in bundles start, progress: 41%
+2025-1-16 17:27:40-debug: // ---- build task 查询 Asset Bundle ---- (25ms)
+2025-1-16 17:27:40-debug: run build task 查询 Asset Bundle success in 25 ms√, progress: 46%
+2025-1-16 17:27:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 46%
+2025-1-16 17:27:40-debug: [Build Memory track]: 查询 Asset Bundle start:287.18MB, end 288.45MB, increase: 1.28MB
+2025-1-16 17:27:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:27:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (10ms)
+2025-1-16 17:27:40-debug: run build task 整理部分构建选项内数据到 settings.json success in 10 ms√, progress: 47%
+2025-1-16 17:27:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:288.47MB, end 288.53MB, increase: 65.50KB
+2025-1-16 17:27:40-debug: 填充脚本数据到 settings.json start, progress: 47%
+2025-1-16 17:27:40-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-1-16 17:27:40-debug: run build task 填充脚本数据到 settings.json success in 10 ms√, progress: 49%
+2025-1-16 17:27:40-debug: // ---- build task 填充脚本数据到 settings.json ---- (10ms)
+2025-1-16 17:27:40-debug: [Build Memory track]: 填充脚本数据到 settings.json start:288.54MB, end 288.61MB, increase: 65.02KB
+2025-1-16 17:27:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-1-16 17:27:40-debug: 整理部分构建选项内数据到 settings.json start, progress: 49%
+2025-1-16 17:27:40-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (139ms)
+2025-1-16 17:27:40-debug: // ---- build task cocos-service：onBeforeCompressSettings ----
+2025-1-16 17:27:40-debug: run build task 整理部分构建选项内数据到 settings.json success in 139 ms√, progress: 51%
+2025-1-16 17:27:40-debug: cocos-service:(onBeforeCompressSettings) start..., progress: 51%
+2025-1-16 17:27:40-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:288.62MB, end 289.03MB, increase: 421.25KB
+2025-1-16 17:27:40-debug: // ---- build task cocos-service：onBeforeCompressSettings ---- (122ms)
+2025-1-16 17:27:40-debug: cocos-service:(onBeforeCompressSettings) in 122 ms ✓, progress: 53%
+2025-1-16 17:27:40-debug: 保存 settings.json start, progress: 53%
+2025-1-16 17:27:40-debug: // ---- build task 保存 settings.json ----
+2025-1-16 17:27:40-debug: // ---- build task 保存 settings.json ---- (19ms)
+2025-1-16 17:27:40-debug: run build task 保存 settings.json success in 19 ms√, progress: 55%
+2025-1-16 17:27:40-debug: 整理静态模板文件 start, progress: 55%
+2025-1-16 17:27:40-debug: [Build Memory track]: 保存 settings.json start:289.16MB, end 290.15MB, increase: 1013.06KB
+2025-1-16 17:27:40-debug: // ---- build task 整理静态模板文件 ----
+2025-1-16 17:27:40-debug: // ---- build task 整理静态模板文件 ---- (69ms)
+2025-1-16 17:27:40-debug: run build task 整理静态模板文件 success in 69 ms√, progress: 58%
+2025-1-16 17:27:40-debug: [Build Memory track]: 整理静态模板文件 start:290.16MB, end 287.34MB, increase: -2889.16KB
+2025-1-16 17:27:40-debug: native:(onAfterCompressSettings) start..., progress: 58%
+2025-1-16 17:27:40-debug: // ---- build task native：onAfterCompressSettings ----
+2025-1-16 17:27:40-log: Checking template version...
+2025-1-16 17:27:40-log: Validating template consistency...
+2025-1-16 17:27:40-debug: generateCMakeConfig, {"CC_USE_GLES3":"set(CC_USE_GLES3 OFF)","CC_USE_GLES2":"set(CC_USE_GLES2 OFF)","USE_SERVER_MODE":"set(USE_SERVER_MODE OFF)","NET_MODE":"set(NET_MODE 0)","XXTEAKEY":"","CC_ENABLE_SWAPPY":"set(CC_ENABLE_SWAPPY OFF)","APP_NAME":"set(APP_NAME \"cocosPusher\")","COCOS_X_PATH":"set(COCOS_X_PATH \"/Applications/Cocos/Creator/3.8.2/CocosCreator.app/Contents/Resources/resources/3d/engine/native\")","USE_JOB_SYSTEM_TASKFLOW":"set(USE_JOB_SYSTEM_TASKFLOW OFF)","USE_JOB_SYSTEM_TBB":"set(USE_JOB_SYSTEM_TBB OFF)","ENABLE_FLOAT_OUTPUT":"set(ENABLE_FLOAT_OUTPUT OFF)","USE_PHYSICS_PHYSX":"set(USE_PHYSICS_PHYSX ON)","USE_OCCLUSION_QUERY":"set(USE_OCCLUSION_QUERY OFF)","USE_GEOMETRY_RENDERER":"set(USE_GEOMETRY_RENDERER OFF)","USE_DEBUG_RENDERER":"set(USE_DEBUG_RENDERER OFF)","USE_AUDIO":"set(USE_AUDIO ON)","USE_VIDEO":"set(USE_VIDEO ON)","USE_WEBVIEW":"set(USE_WEBVIEW ON)","USE_SOCKET":"set(USE_SOCKET ON)","USE_WEBSOCKET_SERVER":"set(USE_WEBSOCKET_SERVER OFF)","USE_SPINE":"set(USE_SPINE ON)","USE_DRAGONBONES":"set(USE_DRAGONBONES OFF)","CC_USE_VULKAN":"set(CC_USE_VULKAN ON)"}
+2025-1-16 17:27:40-log: While replace template content, file /Users/swl/Desktop/cocos/cocos_tbjdwc/build/android/proj/main.cpp
+2025-1-16 17:27:40-log: While replace template content, file /Users/swl/Desktop/cocos/cocos_tbjdwc/build/android/proj/main.m
+2025-1-16 17:27:40-log: While replace template content, file /Users/swl/Desktop/cocos/cocos_tbjdwc/native/engine/android/entry/src/main/config.json
+2025-1-16 17:27:40-log: update settings.properties
+2025-1-16 17:27:40-log: update gradle.properties
+2025-1-16 17:27:40-log: AndroidAPI level 33
+2025-1-16 17:27:40-log: AndroidManifest.xml has already been updated!
+2025-1-16 17:27:40-debug: // ---- build task native：onAfterCompressSettings ---- (30ms)
+2025-1-16 17:27:40-debug: native:(onAfterCompressSettings) in 30 ms ✓, progress: 60%
+2025-1-16 17:27:40-debug: cocos-service:(onAfterCompressSettings) start..., progress: 60%
+2025-1-16 17:27:40-debug: // ---- build task cocos-service：onAfterCompressSettings ----
+2025-1-16 17:27:41-debug: // ---- build task cocos-service：onAfterCompressSettings ---- (70ms)
+2025-1-16 17:27:41-debug: cocos-service:(onAfterCompressSettings) in 70 ms ✓, progress: 62%
+2025-1-16 17:27:41-debug: native:(onAfterBuild) start..., progress: 62%
+2025-1-16 17:27:41-debug: // ---- build task native：onAfterBuild ----
+2025-1-16 17:27:41-debug: // ---- build task native：onAfterBuild ---- (13ms)
+2025-1-16 17:27:41-debug: native:(onAfterBuild) in 13 ms ✓, progress: 64%
+2025-1-16 17:27:41-debug: cocos-service:(onAfterBuild) start..., progress: 64%
+2025-1-16 17:27:41-debug: // ---- build task cocos-service：onAfterBuild ----
+2025-1-16 17:27:41-debug: // ---- build task cocos-service：onAfterBuild ---- (115ms)
+2025-1-16 17:27:41-debug: cocos-service:(onAfterBuild) in 115 ms ✓, progress: 67%
+2025-1-16 17:27:41-debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 67%
+2025-1-16 17:27:41-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----
+2025-1-16 17:27:41-debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (11ms)
+2025-1-16 17:27:41-debug: adsense-h5g-plugin:(onAfterBuild) in 11 ms ✓, progress: 69%
+2025-1-16 17:27:41-log: Asset DB is resume!
+2025-1-16 17:27:41-debug: builder:build-project-total (7965ms)
+2025-1-16 17:27:41-debug: build success in 7965!
+2025-1-16 17:27:41-debug: [Build Memory track]: builder:build-project-total start:201.13MB, end 289.89MB, increase: 88.76MB
+2025-1-16 17:27:41-debug: Stop record console. {file(/Users/swl/Desktop/cocos/cocos_tbjdwc/temp/builder/log/android1-9-2025 15-46.log)}
+2025-1-16 17:27:41-debug: ================================ build Task (android) Finished in (8 s)ms ================================
+2025-1-16 17:29:44-debug: refresh db internal success
+2025-1-16 17:29:44-debug: %cImport%c: /Users/swl/Desktop/cocos/cocos_tbjdwc/assets/scripts/popcontrol.tsbackground: #aaff85; color: #000;color: #000;
+2025-1-16 17:29:44-debug: refresh db assets success
+2025-1-16 17:29:44-debug: refresh db i18n success
+2025-1-16 17:29:44-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-1-16 17:29:44-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-1-16 17:29:44-debug: asset-db:refresh-all-database (94ms)
+2025-1-16 17:29:44-debug: asset-db:worker-effect-data-processing (8ms)
+2025-1-16 17:29:44-debug: asset-db-hook-engine-extends-afterRefresh (9ms)

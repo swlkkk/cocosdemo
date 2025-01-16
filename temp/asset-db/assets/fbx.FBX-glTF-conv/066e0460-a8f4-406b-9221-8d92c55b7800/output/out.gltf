@@ -1,0 +1,312 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 148,
+      "max": [
+        0.039290811866521835,
+        0.03933042660355568,
+        0.006180737167596817
+      ],
+      "min": [
+        -0.039290837943553925,
+        -0.039330437779426575,
+        -0.006180754397064447
+      ],
+      "name": "coin01/POSITION",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 12,
+      "componentType": 5126,
+      "count": 148,
+      "name": "coin01/NORMAL",
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 24,
+      "componentType": 5126,
+      "count": 148,
+      "name": "coin01/TEXCOORD_0",
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5123,
+      "count": 408,
+      "name": "coin01/INDICES",
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1,
+      "name": "coin01/rotation/Output",
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1,
+      "max": [
+        3.3333332538604736
+      ],
+      "min": [
+        3.3333332538604736
+      ],
+      "name": "coin01/rotation/Input",
+      "type": "SCALAR"
+    }
+  ],
+  "animations": [
+    {
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 0,
+            "path": "rotation"
+          }
+        }
+      ],
+      "name": "Take 001",
+      "samplers": [
+        {
+          "input": 5,
+          "output": 4
+        }
+      ]
+    }
+  ],
+  "asset": {
+    "copyright": "Copyright (c) 2018-2020 Chukong Technologies Inc.",
+    "generator": "FBX-glTF-conv",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4736,
+      "byteStride": 32,
+      "name": "coin01",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 816,
+      "byteOffset": 4736,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 16,
+      "byteOffset": 5552
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4,
+      "byteOffset": 5568
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5572,
+      "uri": "out.bin"
+    }
+  ],
+  "extras": {
+    "FBX-glTF-conv": {
+      "animationFrameRate": 30.0,
+      "fbxFileHeaderInfo": {
+        "creationTimeStamp": {
+          "day": 1,
+          "hour": 11,
+          "millisecond": 963,
+          "minute": 53,
+          "month": 9,
+          "second": 47,
+          "year": 2021
+        },
+        "creator": "FBX SDK/FBX Plugins version 2019.0",
+        "sceneInfo": {
+          "author": "",
+          "comment": "",
+          "keywords": "",
+          "original": {
+            "applicationName": "3ds Max",
+            "applicationVendor": "Autodesk",
+            "applicationVersion": "2019",
+            "fileName": "F:\\游戏项目\\20201项目\\推金币\\道具\\coin01.FBX"
+          },
+          "revision": "",
+          "subject": "",
+          "title": "",
+          "url": "/Users/swl/Downloads/cocosPusher/assets/coin01.FBX"
+        }
+      }
+    }
+  },
+  "materials": [
+    {
+      "extras": {
+        "FBX-glTF-conv": {
+          "raw": {
+            "properties": {
+              "ambient": {
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "ambientFactor": {
+                "value": 0.0
+              },
+              "bump": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "bumpFactor": {
+                "value": 1.0
+              },
+              "diffuse": {
+                "value": [
+                  0.5879999995231628,
+                  0.5879999995231628,
+                  0.5879999995231628
+                ]
+              },
+              "diffuseFactor": {
+                "value": 1.0
+              },
+              "displacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "displacementFactor": {
+                "value": 1.0
+              },
+              "emissive": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "emissiveFactor": {
+                "value": 0.0
+              },
+              "normalMap": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflection": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "reflectionFactor": {
+                "value": 1.0
+              },
+              "shadingModel": "phong",
+              "shininess": {
+                "value": 15.99999713897705
+              },
+              "specular": {
+                "value": [
+                  0.8999999761581421,
+                  0.8999999761581421,
+                  0.8999999761581421
+                ]
+              },
+              "specularFactor": {
+                "value": 0.5999999642372131
+              },
+              "transparencyFactor": {
+                "value": 0.0
+              },
+              "transparentColor": {
+                "value": [
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              "vectorDisplacementColor": {
+                "value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              "vectorDisplacementFactor": {
+                "value": 1.0
+              }
+            },
+            "type": "phong"
+          }
+        }
+      },
+      "name": "coin01"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "coin01",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "coin01",
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        8.146034247147327e-08
+      ],
+      "scale": [
+        6.143928050994873,
+        6.143928050994873,
+        6.143928050994873
+      ],
+      "translation": [
+        0.0,
+        -0.11551666259765625,
+        0.0
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
