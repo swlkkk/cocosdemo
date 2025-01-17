@@ -36,7 +36,7 @@ import { popcontrol } from './popcontrol';
 import { dcountChange } from './dcountChange';
 import { autoDropTs } from './autoDropTs';
 import { AudioMgr } from './AudioMgr';
-import {apiRequest} from './Api/apiRequest';
+import { apiRequest } from './Api/apiRequest';
 @ccclass('coinCreate')
 export class coinCreate extends Component {
     @property(Prefab)
