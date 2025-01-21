@@ -11,9 +11,9 @@ export class autoDropTs extends Component {
 
     }
 
-    changeAutoSt() {
+    changeAutoSt(event: Event, customEventData: string) {
         var ccsPu = this.node.parent.parent.parent.parent
-        if(ccsPu.getComponent(coinCreate).userCoins < ccsPu.getComponent(coinCreate).price) {
+        if (ccsPu.getComponent(coinCreate).userCoins < ccsPu.getComponent(coinCreate).price) {
             if (this.node.parent.parent.getChildByName('pop_node').getChildByName('balance_node').active == false) {
                 this.node.parent.parent.getChildByName('pop_node').getComponent(popcontrol).controlBalance(true)
             }
@@ -37,7 +37,13 @@ export class autoDropTs extends Component {
             this.node.parent.getChildByName('drop_btn_auto').active = true
             this.speedLabel.string = 'x' + ccsPu.getComponent(coinCreate).autoSpeed
             this.node.getChildByName('auto_speed_node').active = true
-            ccsPu.getComponent(coinCreate).autoSwitch()
+            if (customEventData) {
+                this.speedLabel.string = 'x3'
+                ccsPu.getComponent(coinCreate).autoSpeed = 3
+                ccsPu.getComponent(coinCreate).autoSwitch(ccsPu.getComponent(coinCreate).autoSpeed)
+            } else {
+                ccsPu.getComponent(coinCreate).autoSwitch()
+            }
         } else {
             ccsPu.getComponent(coinCreate).autoStatus = false
             this.node.getChildByName('auto_switch').active = true
@@ -71,7 +77,7 @@ export class autoDropTs extends Component {
             this.speedLabel.string = 'x3'
             ce.autoSpeed = 3
             ce.autoSwitch(ce.autoSpeed)
-        } else {
+        } else if (this.speedLabel.string == 'x3') {
             this.speedLabel.string = 'x1'
             ce.autoSpeed = 1
             ce.autoSwitch(ce.autoSpeed)

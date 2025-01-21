@@ -125,6 +125,7 @@ export class coinCreate extends Component {
     getMessage = false
     getMessageTimer = null
     getMessageCount = 0
+    autoTest = false
     onLoad() {
         if (sys.os == sys.OS.ANDROID && sys.isNative) {
             // 获取声音
@@ -444,93 +445,92 @@ export class coinCreate extends Component {
                     }, 50);
                 } else if (res.action == 4) {
                     this.playMusic('music/spinrotMs')
-                    this.awardType = -1
-                    MC.onHandleClicked(8)
-                    // if (res.type == -1 || res.code == 11004) {
-                    //     // 没奖
-                    //     this.awardType = -1
-                    //     MC.onHandleClicked(8)
-                    // } else {
-                    //     if (this.winning) {
-                    //         return
-                    //     }
-                    //     if (this.autoStatus) {
-                    //         this.autoStatus = false
-                    //         this.autoSwitch()
-                    //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('auto_node').getComponent(autoDropTs).clearAutoStatus()
-                    //     }
-                    //     // 5分倒计时关闭
-                    //     if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active) {
-                    //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active = false
-                    //     }
-                    //     if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active) {
-                    //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active = false
-                    //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_tips').active = false
-                    //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').getComponent(Label).string = this.fiveTime + ''
-                    //     }
-                    //     clearInterval(this.fiveTimer)
-                    //     this.fiveTime = 300
-                    //     this.fiveTimer = null
-                    //     // 出奖状态设置
-                    //     this.winning = true
-                    //     this.zjCoins = res.prize.coins
-                    //     this.awardType = res.type
-                    //     if (MC.isRolling) {
-                    //         this.allowed = true
-                    //     }
-                    //     if (res.type == 0) {
-                    //         // 连线奖
-                    //         SP.lineType = res.prize.line_type
-                    //         SP.lineNum = res.prize.line_type.length
-                    //         SP.setprize(0)
-                    //         // 中连线奖播放一次连线声音
-                    //         this.playMusic('music/lineMs')
-                    //     } else if (res.type == 1) {
-                    //         // 小玛丽
-                    //         if (this.dropStatus == 3) {
-                    //             this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_count').getComponent(dcountChange).changeDrop()
-                    //         }
-                    //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_btn').getChildByName('count_label').getComponent(Label).string = i18n.t('cocos.zdcj')
-                    //         let outnum = this.xmlOut[Math.floor(Math.random() * this.xmlOut.length)]
-                    //         let xmlxz = res.prize.xmlArr
-                    //         xmlxz.push(outnum)
-                    //         this.xmlcoinArr = xmlxz
-                    //         SP.setprize(1)
-                    //         // 先停止背景音乐再开启小玛丽背景音乐
-                    //         this.playMusic('music/xmlMs')
-                    //     } else if (res.type == 2) {
-                    //         // 叠叠乐
-                    //         if (this.dropStatus == 3) {
-                    //             this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_count').getComponent(dcountChange).changeDrop()
-                    //         }
-                    //         this.ddlArr = JSON.parse(JSON.stringify(res.prize.ddl))
-                    //         this.ddlycArr = JSON.parse(JSON.stringify(res.prize.ddl))
-                    //         this.ddlscore = res.prize.coins
-                    //         SP.setprize(2)
-                    //         // 先停止背景音乐再开启叠叠乐背景音乐
-                    //         this.playMusic('music/ddlMs')
-                    //     } else if (res.type == 3) {
-                    //         // jp1
-                    //         SP.setprize(3)
-                    //         // 先停止背景音乐再开启jp1背景音乐
-                    //         this.playMusic('music/jpNormal')
-                    //     } else if (res.type == 4) {
-                    //         // jp2
-                    //         SP.setprize(4)
-                    //         // 先停止背景音乐再开启jp2背景音乐
-                    //         this.playMusic('music/jpNormal')
-                    //     } else if (res.type == 5) {
-                    //         // jp3
-                    //         SP.setprize(5)
-                    //         // 先停止背景音乐再开启jp3背景音乐
-                    //         this.playMusic('music/jpNormal')
-                    //     } else if (res.type == 6) {
-                    //         // jpAll
-                    //         SP.setprize(6)
-                    //         // 先停止背景音乐再开启jpall背景音乐
-                    //         this.playMusic('music/jpAll')
-                    //     }
-                    // }
+                    if (res.type == -1 || res.code == 11004) {
+                        // 没奖
+                        this.awardType = -1
+                        MC.onHandleClicked(8)
+                    } else {
+                        if (this.winning) {
+                            return
+                        }
+                        if (this.autoStatus) {
+                            this.autoTest = true; // 自动测试中
+                            this.autoStatus = false
+                            this.autoSwitch()
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('auto_node').getComponent(autoDropTs).clearAutoStatus()
+                        }
+                        // 5分倒计时关闭
+                        if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active) {
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active = false
+                        }
+                        if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active) {
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active = false
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_tips').active = false
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').getComponent(Label).string = this.fiveTime + ''
+                        }
+                        clearInterval(this.fiveTimer)
+                        this.fiveTime = 300
+                        this.fiveTimer = null
+                        // 出奖状态设置
+                        this.winning = true
+                        this.zjCoins = res.prize.coins
+                        this.awardType = res.type
+                        if (MC.isRolling) {
+                            this.allowed = true
+                        }
+                        if (res.type == 0) {
+                            // 连线奖
+                            SP.lineType = res.prize.line_type
+                            SP.lineNum = res.prize.line_type.length
+                            SP.setprize(0)
+                            // 中连线奖播放一次连线声音
+                            this.playMusic('music/lineMs')
+                        } else if (res.type == 1) {
+                            // 小玛丽
+                            if (this.dropStatus == 3) {
+                                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_count').getComponent(dcountChange).changeDrop()
+                            }
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_btn').getChildByName('count_label').getComponent(Label).string = i18n.t('cocos.zdcj')
+                            let outnum = this.xmlOut[Math.floor(Math.random() * this.xmlOut.length)]
+                            let xmlxz = res.prize.xmlArr
+                            xmlxz.push(outnum)
+                            this.xmlcoinArr = xmlxz
+                            SP.setprize(1)
+                            // 先停止背景音乐再开启小玛丽背景音乐
+                            this.playMusic('music/xmlMs')
+                        } else if (res.type == 2) {
+                            // 叠叠乐
+                            if (this.dropStatus == 3) {
+                                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_count').getComponent(dcountChange).changeDrop()
+                            }
+                            this.ddlArr = JSON.parse(JSON.stringify(res.prize.ddl))
+                            this.ddlycArr = JSON.parse(JSON.stringify(res.prize.ddl))
+                            this.ddlscore = res.prize.coins
+                            SP.setprize(2)
+                            // 先停止背景音乐再开启叠叠乐背景音乐
+                            this.playMusic('music/ddlMs')
+                        } else if (res.type == 3) {
+                            // jp1
+                            SP.setprize(3)
+                            // 先停止背景音乐再开启jp1背景音乐
+                            this.playMusic('music/jpNormal')
+                        } else if (res.type == 4) {
+                            // jp2
+                            SP.setprize(4)
+                            // 先停止背景音乐再开启jp2背景音乐
+                            this.playMusic('music/jpNormal')
+                        } else if (res.type == 5) {
+                            // jp3
+                            SP.setprize(5)
+                            // 先停止背景音乐再开启jp3背景音乐
+                            this.playMusic('music/jpNormal')
+                        } else if (res.type == 6) {
+                            // jpAll
+                            SP.setprize(6)
+                            // 先停止背景音乐再开启jpall背景音乐
+                            this.playMusic('music/jpAll')
+                        }
+                    }
                 } else if (res.action == 5) {
                     PM.getChildByName('Canvas').getChildByName('jpScore').getComponent(jpScorets).allScore = res.get_coins
                 } else if (res.action == 6) {
@@ -808,6 +808,11 @@ export class coinCreate extends Component {
         spinDm.lineType = null;
         // 中奖结束重新开启5分倒计时
         this.openFive()
+        // 存在自动测试
+        if(this.autoTest) {
+            this.autoTest = false;
+            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('auto_node').getComponent(autoDropTs).changeAutoSt(null,"test")
+        }
     }
     // 小玛丽投币
     xmltouchEnd() {
@@ -891,6 +896,8 @@ export class coinCreate extends Component {
                 clearInterval(this.autottm)
             }
         } else {
+            console.log('传递的参数');
+            console.log(spchange);
             if (spchange != null) {
                 if (spchange == 1) {
                     if (this.autottm != null) {
