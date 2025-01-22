@@ -127,10 +127,11 @@ export class coinCreate extends Component {
     getMessageCount = 0
     autoTest = false
     onLoad() {
-        if (sys.os == sys.OS.ANDROID && sys.isNative) {
-            // 获取声音
-            this.soundStatus = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getSound", "()Z");
-        }
+        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
+        //     // 获取声音
+        //     this.soundStatus = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getSound", "()Z");
+        // }
+        this.soundStatus = false
     }
     start() {
         if (this.soundStatus) {
@@ -138,17 +139,17 @@ export class coinCreate extends Component {
         } else {
             this.soundStatus = false
         }
-        if (sys.os == sys.OS.ANDROID && sys.isNative) {
-            native.bridge.onNative = (arg0: string, arg1: string): void => {
-                if (arg0 == 'cocos_update_user') {
-                    this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlCharge(false)
-                    this.userData = JSON.parse(arg1)
-                    this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
-                    this.userCoins = this.userData.coins
-                }
-                return;
-            }
-        }
+        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
+        //     native.bridge.onNative = (arg0: string, arg1: string): void => {
+        //         if (arg0 == 'cocos_update_user') {
+        //             this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlCharge(false)
+        //             this.userData = JSON.parse(arg1)
+        //             this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
+        //             this.userCoins = this.userData.coins
+        //         }
+        //         return;
+        //     }
+        // }
         window.addEventListener('offline', () => {
             if (!this.isReConnecting && !this.activeClosed) {
                 this.isDropMessageNotBack = false
@@ -199,9 +200,9 @@ export class coinCreate extends Component {
                 }
             }, 500);
         }, this);
-        if (sys.os == sys.OS.ANDROID && sys.isNative) {
-            native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "reqProducts", "()V")
-        }
+        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
+        //     native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "reqProducts", "()V")
+        // }
         this.getUser()
         this.openFive()
         setTimeout(() => {
@@ -249,41 +250,65 @@ export class coinCreate extends Component {
     }
     // 获取用户信息
     getUser() {
-        if (sys.os == sys.OS.ANDROID && sys.isNative) {
-            this.userData = JSON.parse(native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getUser", "()Ljava/lang/String;"));
-            this.token = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getToken", "()Ljava/lang/String;");
-            this.vpinitRes = JSON.parse(native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getVpinit", "()Ljava/lang/String;"));
-            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
-            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
-            if(this.userData.vip > 0) {
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
-            }
-            this.getVpinit()
-        } else {
-            const body = {
-                mobile: '11011110022',
-                vericode: '123456',
-            }
-            if (this.Api == null) {
-                this.Api = new apiRequest()
-                this.Api.post('user/loginByVericodeForWeb', body,
-                    res => {
-                        this.userData = res.user;
-                        this.token = res.token;
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
-                        if(this.userData.vip > 0) {
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
-                        }
-                        this.Api.post('vp/init', { token: this.token, mode_id: '666277af914d731376793a6c' },
-                            resvp => {
-                                this.vpinitRes = resvp
-                                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
-                                this.getVpinit()
-                            }, resvp => { },
-                        );
-                    }, res => { },
-                );
-            }
+        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
+        //     this.userData = JSON.parse(native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getUser", "()Ljava/lang/String;"));
+        //     this.token = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getToken", "()Ljava/lang/String;");
+        //     this.vpinitRes = JSON.parse(native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getVpinit", "()Ljava/lang/String;"));
+        //     this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
+        //     this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
+        //     if(this.userData.vip > 0) {
+        //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
+        //     }
+        //     this.getVpinit()
+        // } else {
+        //     const body = {
+        //         mobile: '11011110022',
+        //         vericode: '123456',
+        //     }
+        //     if (this.Api == null) {
+        //         this.Api = new apiRequest()
+        //         this.Api.post('user/loginByVericodeForWeb', body,
+        //             res => {
+        //                 this.userData = res.user;
+        //                 this.token = res.token;
+        //                 this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
+        //                 if(this.userData.vip > 0) {
+        //                     this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
+        //                 }
+        //                 this.Api.post('vp/init', { token: this.token, mode_id: '666277af914d731376793a6c' },
+        //                     resvp => {
+        //                         this.vpinitRes = resvp
+        //                         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
+        //                         this.getVpinit()
+        //                     }, resvp => { },
+        //                 );
+        //             }, res => { },
+        //         );
+        //     }
+        // }
+        const body = {
+            mobile: '11011110022',
+            vericode: '123456',
+        }
+        if (this.Api == null) {
+            this.Api = new apiRequest()
+            this.Api.post('user/loginByVericodeForWeb', body,
+                res => {
+                    this.userData = res.user;
+                    this.token = res.token;
+                    this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
+                    if(this.userData.vip > 0) {
+                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
+                    }
+                    this.Api.post('vp/init', { token: this.token, mode_id: '666277af914d731376793a6c' },
+                        resvp => {
+                            this.vpinitRes = resvp
+                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
+                            this.getVpinit()
+                        }, resvp => { },
+                    );
+                }, res => { },
+            );
         }
     }
     // 获取上机信息
@@ -896,8 +921,6 @@ export class coinCreate extends Component {
                 clearInterval(this.autottm)
             }
         } else {
-            console.log('传递的参数');
-            console.log(spchange);
             if (spchange != null) {
                 if (spchange == 1) {
                     if (this.autottm != null) {

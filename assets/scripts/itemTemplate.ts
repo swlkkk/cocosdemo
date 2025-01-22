@@ -89,9 +89,9 @@ export class itemTemplate extends Component {
         this.priceLab.string = data.coins +  i18n.t('cocos.jbx')
     }
     goProduct() {
-        if (sys.os == sys.OS.ANDROID && sys.isNative) {
-            native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "onProductItemClick", "(Ljava/lang/String;)V", JSON.stringify(this.chdata))
-        }
+        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
+        //     native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "onProductItemClick", "(Ljava/lang/String;)V", JSON.stringify(this.chdata))
+        // }
     }
 
     update(deltaTime: number) {

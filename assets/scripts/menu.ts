@@ -87,9 +87,9 @@ export class menu extends Component {
             })
             pusher.playMusic('music/bgMusic')
         }
-        if (sys.os == sys.OS.ANDROID && sys.isNative) {
-            native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "setSound", "(Z)V", pusher.soundStatus);
-        }
+        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
+        //     native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "setSound", "(Z)V", pusher.soundStatus);
+        // }
     }
     update(deltaTime: number) {
 
