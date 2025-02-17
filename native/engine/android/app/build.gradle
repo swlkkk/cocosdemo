@@ -1,7 +1,7 @@
 import org.apache.tools.ant.taskdefs.condition.Os
 
-//apply plugin: 'com.android.application'
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
+//apply plugin: 'com.android.library'
 
 RES_PATH = RES_PATH.replace("\\", "/")
 COCOS_ENGINE_PATH = COCOS_ENGINE_PATH.replace("\\", "/")
@@ -101,9 +101,9 @@ android {
 }
 
 dependencies {
-//    implementation fileTree(dir: '../libs', include: ['*.jar','*.aar'])
-//    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
-//    implementation fileTree(dir: "${COCOS_ENGINE_PATH}/cocos/platform/android/java/libs", include: ['*.jar'])
+    implementation fileTree(dir: '../libs', include: ['*.jar','*.aar'])
+    implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
+    implementation fileTree(dir: "${COCOS_ENGINE_PATH}/cocos/platform/android/java/libs", include: ['*.jar'])
     implementation project(':libservice')
     implementation project(':libcocos')
 }
