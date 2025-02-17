@@ -16353,8 +16353,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38,
-      "height": 24.68
+      "width": 37.98602596442856,
+      "height": 24.680000000000003
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16386,7 +16386,7 @@
     "_string": "充值",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18,
+    "_actualFontSize": 18.026986506746628,
     "_fontSize": 18,
     "_fontFamily": "Arial",
     "_lineHeight": 18,
@@ -16754,8 +16754,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38,
-      "height": 24.68
+      "width": 37.98602596442856,
+      "height": 24.680000000000003
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -16787,7 +16787,7 @@
     "_string": "規則",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18,
+    "_actualFontSize": 18.026986506746628,
     "_fontSize": 18,
     "_fontFamily": "Arial",
     "_lineHeight": 18,
@@ -17157,8 +17157,8 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38,
-      "height": 24.68
+      "width": 37.98602596442856,
+      "height": 24.680000000000003
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -17190,7 +17190,7 @@
     "_string": "聲音",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18,
+    "_actualFontSize": 18.026986506746628,
     "_fontSize": 18,
     "_fontFamily": "Arial",
     "_lineHeight": 18,
@@ -29586,7 +29586,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 38,
+      "width": 37.98602596442856,
       "height": 52.4
     },
     "_anchorPoint": {
@@ -29619,7 +29619,7 @@
     "_string": "雨刷",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 18,
+    "_actualFontSize": 18.026986506746628,
     "_fontSize": 18,
     "_fontFamily": "Arial",
     "_lineHeight": 40,
@@ -30311,7 +30311,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 122,
+      "width": 121.98,
       "height": 44
     },
     "_anchorPoint": {
@@ -30984,7 +30984,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 100,
+      "width": 99.97610290892824,
       "height": 34.24
     },
     "_anchorPoint": {
@@ -31017,7 +31017,7 @@
     "_string": "投幣次數",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24,
+    "_actualFontSize": 24.035982008995504,
     "_fontSize": 24,
     "_fontFamily": "Arial",
     "_lineHeight": 24,
@@ -32351,7 +32351,7 @@
     "__prefab": null,
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 102,
+      "width": 101.97610290892824,
       "height": 36.24
     },
     "_anchorPoint": {
@@ -32384,7 +32384,7 @@
     "_string": "自動投幣",
     "_horizontalAlign": 1,
     "_verticalAlign": 1,
-    "_actualFontSize": 24,
+    "_actualFontSize": 24.035982008995504,
     "_fontSize": 24,
     "_fontFamily": "Arial",
     "_lineHeight": 24,

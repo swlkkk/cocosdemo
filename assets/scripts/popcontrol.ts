@@ -133,24 +133,6 @@ export class popcontrol extends Component {
             }
         } else {
             if (type) {
-                // if (sys.os == sys.OS.ANDROID && sys.isNative) {
-                //     this.popNum++;
-                //     this.node.getChildByName('loadCharge_node').active = true;
-                //     this.node.active = true
-                //     var arr = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getProducts", "()Ljava/lang/String;")
-                //     if (arr !== "") {
-                //         this.node.getChildByName('loadCharge_node').active = false;
-                //         this.node.getChildByName('charge_node').getChildByName('ScrollView').getChildByName('view').getChildByName('content').getComponent(chargList).creation(JSON.parse(arr))
-                //         this.node.getChildByName('charge_node').active = true
-                //     } else {
-                //         arr = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "reGetProducts", "()Ljava/lang/String;")
-                //         if (arr !== "") {
-                //             this.node.getChildByName('loadCharge_node').active = false;
-                //             this.node.getChildByName('charge_node').getChildByName('ScrollView').getChildByName('view').getChildByName('content').getComponent(chargList).creation(JSON.parse(arr))
-                //             this.node.getChildByName('charge_node').active = true
-                //         }
-                //     }
-                // }
             } else {
                 this.popNum--;
                 this.node.getChildByName('charge_node').active = false

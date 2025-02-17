@@ -23,20 +23,14 @@ import { xmlts } from './xmlts';
 import { lxts } from './lxts';
 import { jpts } from './jpts';
 import { xmlAnim } from './xmlAnim';
-import { socketApi } from './Socket/socketApi';
 import { spin } from './spin';
 import { maints } from './maints';
 import { jpScorets } from './jpScorets';
-import { encrypt } from './Api/encrypt';
-import { socketFun } from './Socket/socketFun';
-import { MD5 } from './Api/MD5';
 import { awardCl } from './awardCl';
 import * as i18n from 'db://i18n/LanguageData';
 import { popcontrol } from './popcontrol';
-import { dcountChange } from './dcountChange';
 import { autoDropTs } from './autoDropTs';
 import { AudioMgr } from './AudioMgr';
-import { apiRequest } from './Api/apiRequest';
 @ccclass('coinCreate')
 export class coinCreate extends Component {
     @property(Prefab)
@@ -127,10 +121,6 @@ export class coinCreate extends Component {
     getMessageCount = 0
     autoTest = false
     onLoad() {
-        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
-        //     // 获取声音
-        //     this.soundStatus = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getSound", "()Z");
-        // }
         this.soundStatus = false
     }
     start() {
@@ -139,36 +129,6 @@ export class coinCreate extends Component {
         } else {
             this.soundStatus = false
         }
-        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
-        //     native.bridge.onNative = (arg0: string, arg1: string): void => {
-        //         if (arg0 == 'cocos_update_user') {
-        //             this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlCharge(false)
-        //             this.userData = JSON.parse(arg1)
-        //             this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
-        //             this.userCoins = this.userData.coins
-        //         }
-        //         return;
-        //     }
-        // }
-        window.addEventListener('offline', () => {
-            if (!this.isReConnecting && !this.activeClosed) {
-                this.isDropMessageNotBack = false
-                if (this.autoStatus) {
-                    this.autoStatus = false
-                    this.autoSwitch()
-                }
-                if (this.winning) {
-                    if (this.autoTimer != null) {
-                        clearInterval(this.autoTimer)
-                    }
-                }
-                this.isReConnecting = true
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlTips(true)
-                setTimeout(() => {
-                    this.tryConnect();
-                }, 5000);
-            }
-        });
         /* 正常投币 */
         input.on(Input.EventType.TOUCH_END, this.touchEnd, this)
         /* 小玛丽 */
@@ -200,16 +160,6 @@ export class coinCreate extends Component {
                 }
             }, 500);
         }, this);
-        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
-        //     native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "reqProducts", "()V")
-        // }
-        this.getUser()
-        this.openFive()
-        setTimeout(() => {
-            if (this.node && this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('kb_node').active) {
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('kb_node').active = false
-            }
-        }, 3000);
     }
     releaseAny() {
         input.off(Input.EventType.TOUCH_END, this.touchEnd, this)
@@ -222,432 +172,8 @@ export class coinCreate extends Component {
             this.node.parent.getChildByName('__audioMgr__').destroy()
         }
     }
-    openFive() {
-        this.fiveTimer = setInterval(() => {
-            if (this.fiveTime > 1) {
-                this.fiveTime = this.fiveTime - 1
-                if (this.fiveTime <= 60) {
-                    this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('down_count').getComponent(Label).string = this.fiveTime + 's'
-                    if (!this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active) {
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active = true
-                    }
-                    if (this.fiveTime <= 5) {
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').getComponent(Label).string = this.fiveTime + ''
-                        if (!this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active) {
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active = true
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_tips').active = true
-                        }
-                    }
-                }
-            } else {
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active = false
-                clearInterval(this.fiveTimer)
-                this.fiveTimer = null
-                this.fiveTime = 300
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlTime(true)
-            }
-        }, 1000)
-    }
-    // 获取用户信息
-    getUser() {
-        // if (sys.os == sys.OS.ANDROID && sys.isNative) {
-        //     this.userData = JSON.parse(native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getUser", "()Ljava/lang/String;"));
-        //     this.token = native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getToken", "()Ljava/lang/String;");
-        //     this.vpinitRes = JSON.parse(native.reflection.callStaticMethod("com/lotogram/tbjdwc/mvvm/ui/activity/TuibiDevicesActivity", "getVpinit", "()Ljava/lang/String;"));
-        //     this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
-        //     this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
-        //     if(this.userData.vip > 0) {
-        //         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
-        //     }
-        //     this.getVpinit()
-        // } else {
-        //     const body = {
-        //         mobile: '11011110022',
-        //         vericode: '123456',
-        //     }
-        //     if (this.Api == null) {
-        //         this.Api = new apiRequest()
-        //         this.Api.post('user/loginByVericodeForWeb', body,
-        //             res => {
-        //                 this.userData = res.user;
-        //                 this.token = res.token;
-        //                 this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
-        //                 if(this.userData.vip > 0) {
-        //                     this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
-        //                 }
-        //                 this.Api.post('vp/init', { token: this.token, mode_id: '666277af914d731376793a6c' },
-        //                     resvp => {
-        //                         this.vpinitRes = resvp
-        //                         this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
-        //                         this.getVpinit()
-        //                     }, resvp => { },
-        //                 );
-        //             }, res => { },
-        //         );
-        //     }
-        // }
-        const body = {
-            mobile: '11011110022',
-            vericode: '123456',
-        }
-        if (this.Api == null) {
-            this.Api = new apiRequest()
-            this.Api.post('user/loginByVericodeForWeb', body,
-                res => {
-                    this.userData = res.user;
-                    this.token = res.token;
-                    this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(this.userData.coins)
-                    if(this.userData.vip > 0) {
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('avatarBox').getChildByName('vip_box').active = true
-                    }
-                    this.Api.post('vp/init', { token: this.token, mode_id: '666277af914d731376793a6c' },
-                        resvp => {
-                            this.vpinitRes = resvp
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_node').getChildByName('mess_label').getComponent(Label).string = this.vpinitRes.price + i18n.t('cocos.bc')
-                            this.getVpinit()
-                        }, resvp => { },
-                    );
-                }, res => { },
-            );
-        }
-    }
-    // 获取上机信息
-    getVpinit() {
-        var res = this.vpinitRes
-        this.price = res.price
-        this.recordId = res.record._id
-        this.wsuuid = res.record.uuid
-        let PM = this.node.getChildByName('Main')
-        PM.getComponent(maints).score1 = res.record.channel_count[0]
-        PM.getComponent(maints).score2 = res.record.channel_count[1]
-        PM.getComponent(maints).score3 = res.record.channel_count[2]
-        PM.getComponent(maints).score4 = res.record.channel_count[3]
-        PM.getComponent(maints).score5 = res.record.channel_count[4]
-        PM.getComponent(maints).score6 = res.record.channel_count[5]
-        PM.getComponent(maints).score7 = res.record.channel_count[6]
-        PM.getComponent(maints).score8 = res.record.channel_count[7]
-        PM.getComponent(maints).score9 = res.record.jp1
-        PM.getComponent(maints).score10 = res.record.jp2
-        PM.getComponent(maints).score11 = res.record.jp3
-        PM.getComponent(maints).score12 = res.record.all
-        this.node.getComponent(gameCore).starting1 = res.record.channel_light[0]
-        this.node.getComponent(gameCore).starting2 = res.record.channel_light[1]
-        setTimeout(() => {
-            this.node.getComponent(gameCore).changeChannel()
-        }, 500);
-        if (this.websocket == null) {
-            this.websocket = new socketApi();
-            this.wssalt = new encrypt().generateUUID(this.wssaltLen)
-            this.websocketFnc = new socketFun()
-            this.Md5 = new MD5()
-            this.websocketControlInit(res.ws)
-        }
-    }
-    websocketControlInit(url: string, isReConnect?: boolean) {
-        if (this.vpinitRes.salt) {
-            let ts = Date.now()
-            let signdata = this.Md5.md5("id=" + this.userData._id + "&uuid=" + this.wsuuid + "&ts=" + ts + "&type=3" + "&key=" + this.vpinitRes.salt)
-            this.ws = new WebSocket(`${url}?nonce=${this.token}&id=${this.userData._id}&uuid=${this.wsuuid}&type=3&ts=${ts}&sign=${signdata}&sl=${this.wssaltLen}`);
-        } else {
-            this.ws = new WebSocket(`${url}?uuid=${this.wsuuid}&sl=${this.wssaltLen}`);
-        }
-        if (this.isConnecting) {
-            return;
-        }
-        if (isReConnect) {
-            this.websocket.websocket_resign(
-                this.userData._id,
-                this.userData.uid,
-                this.userData.vip,
-                this.token,
-                this.wsuuid,
-                this.wssalt,
-                this.recordId,
-                this.billId,
-            ).then((res) => {
-                this.websocket.websocket_openListen(this.ws, res)
-            })
-        } else {
-            this.websocket.websocket_sign(
-                this.userData._id,
-                this.userData.uid,
-                this.userData.vip,
-                this.token,
-                this.wsuuid,
-                this.wssalt,
-                this.recordId,
-            ).then((res) => {
-                this.websocket.websocket_openListen(this.ws, res)
-            })
-        }
-        this.websocket.websocket_messageListen(this.ws, this.wsuuid, this.wssaltLen, res => {
-            let PM = this.node.getChildByName('Main')
-            let MC = PM.getChildByName('Canvas').getChildByName('Machine').getComponent(machine)
-            let SP = this.node.getChildByName('pusher').getChildByName('component').getChildByName('spin').getComponent(spin)
-            console.log('收到socket返回消息');
-            console.log(JSON.stringify(res));
-            if (res.hasOwnProperty('status') && res.status == 'failed') {
-                if (res.code != 11004) {
-                    if (this.autoStatus && res.action != 4) {
-                        this.autoStatus = false
-                        this.autoSwitch()
-                    }
-                    return
-                }
-            } else {
-                // 获取用户真实金币
-                if (res.hasOwnProperty("user_coins")) {
-                    this.userCoins = res.user_coins
-                    this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('user_property').getChildByName('click_box').getChildByName('coin_label').getComponent(Label).string = this.fillter(res.user_coins)
-                }
-                if (res.action == 0) {
-                    if (isReConnect) {
-                        // 断线重连
-                        if (this.isReConnecting) {
-                            this.no = res.no
-                            this.isDropMessageNotBack = false
-                            this.isDroped = true
-                            clearTimeout(this.reConnectTimer);
-                            this.isReConnecting = false;
-                            this.reCountNum = null;
-                            this.isConnecting = true;
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlTips(false)
-                            if (this.winning) {
-                                if (this.autoTimer != null) {
-                                    this.autoCast()
-                                }
-                            }
-                        }
-                    }
-                } else if (res.action == 1) {
-                    this.no = res.no
-                    this.isConnecting = true
-                    this.billId = res.bill_id
-                } else if (res.action == 2) {
-                    this.isDroped = true
-                    if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active) {
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active = false
-                    }
-                    if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active) {
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active = false
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_tips').active = false
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').getComponent(Label).string = this.fiveTime + ''
-                    }
-                    this.fiveTime = 300
-                    this.setVircoin();
-                    this.playMusic('music/coinDrop')
-                    this.isDropMessageNotBack = false;
-                    PM.getComponent(maints).score9 = res.jp.jp1
-                    PM.getComponent(maints).score10 = res.jp.jp2
-                    PM.getComponent(maints).score11 = res.jp.jp3
-                    PM.getComponent(maints).score12 = res.jp.all
-                    if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('kb_node').active) {
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('kb_node').active = false
-                    }
-                } else if (res.action == 3) {
-                    if (this.channelCount == 0) {
-                        PM.getComponent(maints).score1 = res.channel_count[0]
-                    } else if (this.channelCount == 1) {
-                        PM.getComponent(maints).score2 = res.channel_count[1]
-                    } else if (this.channelCount == 2) {
-                        PM.getComponent(maints).score3 = res.channel_count[2]
-                    } else if (this.channelCount == 3) {
-                        PM.getComponent(maints).score4 = res.channel_count[3]
-                    } else if (this.channelCount == 4) {
-                        PM.getComponent(maints).score5 = res.channel_count[4]
-                    } else if (this.channelCount == 5) {
-                        PM.getComponent(maints).score6 = res.channel_count[5]
-                    } else if (this.channelCount == 6) {
-                        PM.getComponent(maints).score7 = res.channel_count[6]
-                    } else if (this.channelCount == 7) {
-                        PM.getComponent(maints).score8 = res.channel_count[7]
-                    }
-                    this.node.getComponent(gameCore).resertChannel()
-                    this.node.getComponent(gameCore).starting1 = res.channel_light[0]
-                    this.node.getComponent(gameCore).starting2 = res.channel_light[1]
-                    setTimeout(() => {
-                        this.node.getComponent(gameCore).changeChannel()
-                    }, 50);
-                } else if (res.action == 4) {
-                    this.playMusic('music/spinrotMs')
-                    if (res.type == -1 || res.code == 11004) {
-                        // 没奖
-                        this.awardType = -1
-                        MC.onHandleClicked(8)
-                    } else {
-                        if (this.winning) {
-                            return
-                        }
-                        if (this.autoStatus) {
-                            this.autoTest = true; // 自动测试中
-                            this.autoStatus = false
-                            this.autoSwitch()
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('auto_node').getComponent(autoDropTs).clearAutoStatus()
-                        }
-                        // 5分倒计时关闭
-                        if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active) {
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').active = false
-                        }
-                        if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active) {
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').active = false
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_tips').active = false
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('time_down').getChildByName('folly_count').getComponent(Label).string = this.fiveTime + ''
-                        }
-                        clearInterval(this.fiveTimer)
-                        this.fiveTime = 300
-                        this.fiveTimer = null
-                        // 出奖状态设置
-                        this.winning = true
-                        this.zjCoins = res.prize.coins
-                        this.awardType = res.type
-                        if (MC.isRolling) {
-                            this.allowed = true
-                        }
-                        if (res.type == 0) {
-                            // 连线奖
-                            SP.lineType = res.prize.line_type
-                            SP.lineNum = res.prize.line_type.length
-                            SP.setprize(0)
-                            // 中连线奖播放一次连线声音
-                            this.playMusic('music/lineMs')
-                        } else if (res.type == 1) {
-                            // 小玛丽
-                            if (this.dropStatus == 3) {
-                                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_count').getComponent(dcountChange).changeDrop()
-                            }
-                            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_btn').getChildByName('count_label').getComponent(Label).string = i18n.t('cocos.zdcj')
-                            let outnum = this.xmlOut[Math.floor(Math.random() * this.xmlOut.length)]
-                            let xmlxz = res.prize.xmlArr
-                            xmlxz.push(outnum)
-                            this.xmlcoinArr = xmlxz
-                            SP.setprize(1)
-                            // 先停止背景音乐再开启小玛丽背景音乐
-                            this.playMusic('music/xmlMs')
-                        } else if (res.type == 2) {
-                            // 叠叠乐
-                            if (this.dropStatus == 3) {
-                                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('drop_count').getComponent(dcountChange).changeDrop()
-                            }
-                            this.ddlArr = JSON.parse(JSON.stringify(res.prize.ddl))
-                            this.ddlycArr = JSON.parse(JSON.stringify(res.prize.ddl))
-                            this.ddlscore = res.prize.coins
-                            SP.setprize(2)
-                            // 先停止背景音乐再开启叠叠乐背景音乐
-                            this.playMusic('music/ddlMs')
-                        } else if (res.type == 3) {
-                            // jp1
-                            SP.setprize(3)
-                            // 先停止背景音乐再开启jp1背景音乐
-                            this.playMusic('music/jpNormal')
-                        } else if (res.type == 4) {
-                            // jp2
-                            SP.setprize(4)
-                            // 先停止背景音乐再开启jp2背景音乐
-                            this.playMusic('music/jpNormal')
-                        } else if (res.type == 5) {
-                            // jp3
-                            SP.setprize(5)
-                            // 先停止背景音乐再开启jp3背景音乐
-                            this.playMusic('music/jpNormal')
-                        } else if (res.type == 6) {
-                            // jpAll
-                            SP.setprize(6)
-                            // 先停止背景音乐再开启jpall背景音乐
-                            this.playMusic('music/jpAll')
-                        }
-                    }
-                } else if (res.action == 5) {
-                    PM.getChildByName('Canvas').getChildByName('jpScore').getComponent(jpScorets).allScore = res.get_coins
-                } else if (res.action == 6) {
-                    this.activeClosed = true
-                    if(this.getMessageTimer != null) {
-                        clearInterval(this.getMessageTimer)
-                    }
-                    this.websocket.websocket_close(this.ws)
-                    if (this.isDroped) {
-                        this.isDroped = false
-                        this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getChildByName('settle_node').getChildByName('symbol_node').getChildByName('award_node').getComponent(awardCl).freshData(PM.getChildByName('Canvas').getChildByName('jpScore').getComponent(jpScorets).allScore, res.prize, this.price)
-                    } else {
-                        if (sys.os == sys.OS.ANDROID && sys.isNative) {
-                            this.releaseAny()
-                            this.node.active = false;
-                            this.node.parent.getChildByName('GameOver').active = true
-                            setTimeout(() => {
-                                sys.garbageCollect();
-                                game.end();
-                            }, 1500);
-                        } else {
-                            game.end()
-                        }
-                    }
-                }
-            }
-        })
-        this.websocket.websocket_closeListen(this.ws, res => {
-            if (!this.isReConnecting && !this.activeClosed) {
-                if (this.autoStatus) {
-                    this.autoStatus = false
-                    this.autoSwitch()
-                }
-                if (this.winning) {
-                    if (this.autoTimer != null) {
-                        clearInterval(this.autoTimer)
-                    }
-                }
-                this.isReConnecting = true
-                this.isDroped = false
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlTips(true)
-                setTimeout(() => {
-                    this.tryConnect();
-                }, 5000);
-            }
-        })
-        this.websocket.websocket_errorListen(this.ws, res => {
-            if (!this.isReConnecting) {
-                if (this.autoStatus) {
-                    this.autoStatus = false
-                    this.autoSwitch()
-                }
-                if (this.winning) {
-                    if (this.autoTimer != null) {
-                        clearInterval(this.autoTimer)
-                    }
-                }
-                this.isReConnecting = true
-                this.isDroped = false
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlTips(true)
-                setTimeout(() => {
-                    this.tryConnect();
-                }, 5000);
-            }
-        })
-    }
-    tryConnect() {
-        this.isConnecting = false;
-        setTimeout(() => {
-            this.reConnect();
-        }, 1000);
-        this.reConnectTimer = setTimeout(() => {
-            this.tryConnect();
-        }, 3500);
-    }
-    reConnect = () => {
-        this.reCountNum++;
-        if (this.reCountNum >= 5) {
-            clearTimeout(this.reConnectTimer)
-            this.isReConnecting = false;
-            this.reCountNum = null;
-            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlTips(false)
-            this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlError(true)
-        } else {
-            this.websocketControlInit(this.vpinitRes.ws, true);
-        }
-    };
     // 触摸结束
     touchEnd() {
-        if (!this.isConnecting) {
-            return
-        }
         if (this.autoStatus) {
             return;
         }
@@ -831,8 +357,6 @@ export class coinCreate extends Component {
         this.winning = false;
         spinDm.lineNum = null;
         spinDm.lineType = null;
-        // 中奖结束重新开启5分倒计时
-        this.openFive()
         // 存在自动测试
         if(this.autoTest) {
             this.autoTest = false;
@@ -1009,23 +533,7 @@ export class coinCreate extends Component {
     }
     // 发送投币信息
     ws_fnc_dropping() {
-        if (this.isDropMessageNotBack) {
-            return
-        }
-        if (this.userCoins < this.price) {
-            if (this.autoStatus) {
-                this.autoStatus = false
-                this.autoSwitch()
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('bottom_fun').getChildByName('auto_node').getComponent(autoDropTs).clearAutoStatus()
-            }
-            if (this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getChildByName('balance_node').active == false) {
-                this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('pop_node').getComponent(popcontrol).controlBalance(true)
-            }
-            return
-        }
-        let sendData = this.websocketFnc.ws_dropcoin()
-        this.isDropMessageNotBack = true;
-        this.websocket.websocket_sendMessage(sendData, this.ws, this.wsuuid, this.wssalt)
+        this.setVircoin()
     }
     getddlsort() {
         let domachine = this.node.getChildByName('Main').getChildByName('Canvas').getChildByName('Machine').getComponent(machine)
