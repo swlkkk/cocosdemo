@@ -135,31 +135,31 @@ export class coinCreate extends Component {
         input.on(Input.EventType.TOUCH_END, this.xmltouchEnd, this)
         /* 叠叠乐 */
         input.on(Input.EventType.TOUCH_END, this.ddltouchEnd, this)
-        game.on(Game.EVENT_HIDE, () => {
-            // 用户在自动投币就停止
-            if (this.autoStatus) {
-                this.autoStatus = false
-                this.autoSwitch()
-            }
-            // 进入后台处于中奖出币状态
-            if (this.winning) {
-                if (this.autoTimer != null) {
-                    clearInterval(this.autoTimer)
-                }
-            }
-            game.pause();
-        })
-        game.on(Game.EVENT_SHOW, () => {
-            setTimeout(() => {
-                game.resume();
-                // 从后台返回处于中奖出币状态
-                if (this.winning) {
-                    if (this.autoTimer != null && !this.isReConnecting) {
-                        this.autoCast()
-                    }
-                }
-            }, 500);
-        }, this);
+        // game.on(Game.EVENT_HIDE, () => {
+        //     // 用户在自动投币就停止
+        //     if (this.autoStatus) {
+        //         this.autoStatus = false
+        //         this.autoSwitch()
+        //     }
+        //     // 进入后台处于中奖出币状态
+        //     if (this.winning) {
+        //         if (this.autoTimer != null) {
+        //             clearInterval(this.autoTimer)
+        //         }
+        //     }
+        //     game.pause();
+        // })
+        // game.on(Game.EVENT_SHOW, () => {
+        //     setTimeout(() => {
+        //         game.resume();
+        //         // 从后台返回处于中奖出币状态
+        //         if (this.winning) {
+        //             if (this.autoTimer != null && !this.isReConnecting) {
+        //                 this.autoCast()
+        //             }
+        //         }
+        //     }, 500);
+        // }, this);
     }
     releaseAny() {
         input.off(Input.EventType.TOUCH_END, this.touchEnd, this)
